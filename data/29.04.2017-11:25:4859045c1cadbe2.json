@@ -1,0 +1,19 @@
+{
+  "personal": {
+    "job": {
+      "name": "Schüler",
+      "val": "schueler"
+    }
+  },
+  "lpl": {
+    "share": true,
+    "sell": true,
+    "newsletter": true,
+    "annonym": true
+  },
+  "questions": [
+    "Ja",
+    "Ja",
+    "Cool"
+  ]
+}

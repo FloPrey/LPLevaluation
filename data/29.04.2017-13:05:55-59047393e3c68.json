@@ -1,0 +1,29 @@
+{
+  "personal": {
+    "job": {
+      "name": "Angestellter",
+      "val": "angestellter"
+    },
+    "age": 20
+  },
+  "lpl": {
+    "share": true,
+    "sell": true,
+    "newsletter": true,
+    "annonym": true
+  },
+  "questions": [
+    {
+      "question": "Darf bezüglich Ihrer vorherigen Auswahl, Daten an Dritte weitergegeben werden?",
+      "answer": "Ja"
+    },
+    {
+      "question": "Darf bezüglich Ihrer vorherigen Auswahl, Daten an Dritte verkauft werden?",
+      "answer": "Nicht sicher"
+    },
+    {
+      "question": "Besondere Anmerkungen oder Anregungen",
+      "answer": "Nice"
+    }
+  ]
+}

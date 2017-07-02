@@ -1,0 +1,268 @@
+{
+  "questions": [
+
+    {
+      "id": 21,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-datenweitergabe",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Teilen auf Sozialen Medien",
+          "val": "Teilen auf Sozialen Medien"
+        },
+        {
+          "title": "Aufbau eines Datennetzwerks",
+          "val": "Aufbau eines Datennetzwerks"
+        },
+        {
+          "title": "Datenweitergabe an Dritte",
+          "val": "Datenweitergabe an Dritte"
+        },
+        {
+          "title": "Erstellen von Datenverbindungen",
+          "val": "Erstellen von Datenverbindungen"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-verkauf",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Verkauf auf Sozialen Medien",
+          "val": "Verkauf auf Sozialen Medien"
+        },
+        {
+          "title": "Datenverkauf an Dritte",
+          "val": "Datenverkauf an Dritte"
+        },
+        {
+          "title": "Aufbereiten des Geldflusses",
+          "val": "Aufbereiten des Geldflusses"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-marketing",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Verwendung der Daten zu Marketingzwecken",
+          "val": "Verwendung der Daten zu Marketingzwecken"
+        },
+        {
+          "title": "Daten zur Verwendung der Aktienanalyse",
+          "val": "Daten zur Verwendung der Aktienanalyse"
+        },
+        {
+          "title": "Erstellung von Datenstatistiken",
+          "val": "Erstellung von Datenstatistiken"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-werbung",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Werbung",
+          "val": "Werbung"
+        },
+        {
+          "title": "Weitergabe der Daten an mehrere",
+          "val": "Weitergabe der Daten an mehrere"
+        },
+        {
+          "title": "Verwendung für Politische Zwecke",
+          "val": "Verwendung für Politische Zwecke"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-sicherheit",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten zur Verwedung der Verschlüsselung",
+          "val": "Daten zur Verwendung der Verschlüsselung"
+        },
+        {
+          "title": "Daten für die Erhöhung der Sicherheit des Benuterkontos",
+          "val": "Daten für die Erhöhung der Sicherheit des Benutzerkontos"
+        },
+        {
+          "title": "Daten werden für die Verschlüsselung verwendet",
+          "val": "Daten werden für die Verschlüsselung verwendet"
+        }
+
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-newsletter",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden per Brief versand",
+          "val": "Daten werden per Brief versand"
+        },
+        {
+          "title": "Daten für Briefversand",
+          "val": "Daten für Briefversand"
+        },
+        {
+          "title": "Daten für E-Mail Newsletter Versand",
+          "val": "Daten für E-Mail Newsletter Versand"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-kontakt",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden zur Kontaktaufnahme verwendet",
+          "val": "Daten werden zur Kontaktaufnahme verwendet"
+        },
+        {
+          "title": "Datenversand, bitte um Rückruf",
+          "val": "Datenversand, bitte um Rückruf"
+        },
+        {
+          "title": "Daten werden für Telefonbefragungen verwendet",
+          "val": "Daten werden für Telefonbefragungen verwendet"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-fortbildung",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Datenweitergabe für professionelle Zwecke",
+          "val": "Datenweitergabe für professionelle Zwecke"
+        },
+        {
+          "title": "Schwierige Datenverarbeitung",
+          "val": "Schwierige Datenverarbeitung"
+        },
+        {
+          "title": "Daten werden für schulische / Ausbildungszwecke verwendet",
+          "val": "Daten werden für schulische / Ausbildungszwecke verwendet"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-forschung",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Weitergabe geheimer Daten",
+          "val": "Weitergabe geheimer Daten"
+        },
+        {
+          "title": "Weitergabe biologischer Daten",
+          "val": "Weitergabe boilogischer Daten"
+        },
+        {
+          "title": "Daten werden für Forschungszwecke verwendet",
+          "val": "Daten werden für Forschungszwecke verwendet"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-buchhaltung",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden zum Zwecke der Buchhaltung / Rechnungserstellung verwendet",
+          "val": "Daten werden zum Zwecke der Buchhaltung / Rechnungserstellung verwendet"
+        },
+        {
+          "title": "Datenweitergabe nur an Berechtigte",
+          "val": "Datenweitergabe nur an Berechtigte"
+        },
+        {
+          "title": "Daten werden zur Veröffentlichung verwendet",
+          "val": "Daten werden zur Veröffentlichung verwendet"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-versand",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden zu Datenpaketen zusammengefasst",
+          "val": "Daten werden zu Datenpaketen zusammengefasst"
+        },
+        {
+          "title": "Daten werden für den Versand verwendet",
+          "val": "Daten werden für den Versand verwendet"
+        },
+        {
+          "title": "Daten werden komprimiert gespeichert",
+          "val": "Daten werden komprimiert gespeichert"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+      "type": "icon",
+      "icon": "lplicon-intern",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden verändert bei der Speicherung",
+          "val": "Daten werden verändert bei der Speicherun"
+        },
+        {
+          "title": "Daten werden für mechanische Zwecke verwendet",
+          "val": "Daten werden für mechanische Zwecke verwendet"
+        },
+        {
+          "title": "Daten werden für interne Verbesserung verwendet",
+          "val": "Daten werden für die interne Verbesserung verwendet"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Besondere Anmerkungen oder Anregungen",
+      "type": "text",
+      "placeholder": ""
+    }
+  ]
+}

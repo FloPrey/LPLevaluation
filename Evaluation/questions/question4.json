@@ -1,0 +1,159 @@
+[
+  {
+    "question": "Darf bezüglich Ihrer vorherigen Auswahl, Daten an Dritte weitergegeben werden?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Bin mir nicht sicher",
+        "val": "Nicht sicher"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "question": "Darf bezüglich Ihrer vorherigen Auswahl, Daten an Dritte verkauft werden?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Bin mir nicht sicher",
+        "val": "Nicht sicher"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "question": "Darf bezüglich Ihrer vorherigen Auswahl, Daten zu Forschungszwecken verwendet werden?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Bin mir nicht sicher",
+        "val": "Nicht sicher"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "question": "Darf bezüglich Ihrer vorherigen Auswahl, ein Newsletter an Sie gesendet werden?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Bin mir nicht sicher",
+        "val": "Nicht sicher"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "question": "Wie verständlich beurteilen Sie die Methode zum Akzeptieren der Datenschutzbestimmungen?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Sehr Verständlich",
+        "val": "Sehr Verständlich"
+      },
+      {
+        "title": "Verständlich",
+        "val": "Verständlich"
+      },
+      {
+        "title": "Weder Verständlich, noch unverständlich",
+        "val": "Weder Verständlich, noch unverständlich"
+      },
+      {
+        "title": "Unverständlich",
+        "val": "unverständlich"
+      },
+      {
+        "title": "Sehr Unverständlich",
+        "val": "Sehr Unverständlich"
+      }
+    ]
+  },
+  {
+    "question": "Würde Sie gerne eine weniger übersichtlichere Datenschutzbestimmung vorfinden?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "question": "Würden Sie eine Datenschutzbestimmung mit weniger Einstellungsmöglichkeiten bevorzugen?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "question": "Bevorzugen Sie diese Methode gegenüber herkömmlichen Methoden zum aktzeptieren der Datenschutzbestimmungen?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "question": "Besondere Anmerkungen oder Anregungen",
+    "type": "text",
+    "placeholder": ""
+  }
+]

@@ -1,0 +1,248 @@
+{"questions": [
+  {
+    "id": 1,
+    "question": "Wie wichtig ist Ihnen Datenschutz im Internet?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Sehr wichtig",
+        "val": "Sehr wichtig"
+      },
+      {
+        "title": "wichtig",
+        "val": "wichtig"
+      },
+      {
+        "title": "Weder wichtig, noch unwichtig",
+        "val": "Weder wichtig, noch unwichtig"
+      },
+      {
+        "title": "unwichtig",
+        "val": "unwichtig"
+      },
+      {
+        "title": "Sehr unwichtig",
+        "val": "Sehr unwichtig"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Haben Sie jemals eine Datenschutzerklärung, entweder auf Facebook, Amazon, etc., aktzeptiert? (Wenn nein, weiter mit Frage 5)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Bin mir nicht sicher",
+        "val": "Nicht sicher"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Wenn ja, wie würden Sie die Verständlichkeit dieser Datenschutzerklärung beurteilen?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Sehr Verständlich",
+        "val": "Sehr Verständlich"
+      },
+      {
+        "title": "Verständlich",
+        "val": "Verständlich"
+      },
+      {
+        "title": "Weder Verständlich, noch unverständlich",
+        "val": "Weder Verständlich, noch unverständlich"
+      },
+      {
+        "title": "Unverständlich",
+        "val": "unverständlich"
+      },
+      {
+        "title": "Sehr Unverständlich",
+        "val": "Sehr Unverständlich"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Was finden Sie gut an aktuellen Datenschutzbestimmungen?",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Einfache Aktzeptierung",
+        "val": "Einfache Aktzeptierung"
+      },
+      {
+        "title": "Strukturierung",
+        "val": "Strukturierung"
+      },
+      {
+        "title": "Verwendung von Farben",
+        "val": "Verwendung von Farben"
+      },
+      {
+        "title": "Formulierung",
+        "val": "Formulierung"
+      },
+      {
+        "title": "Textformatierung",
+        "val": "Textformatierung"
+      },
+      {
+        "title": "Verwendung von Icons",
+        "val": "Verwendung von Icons"
+      },
+      {
+        "title": "Verwendung von Bilder",
+        "val": "Verwendung von Bilder"
+      },
+      {
+        "title": "Nichts",
+        "val": "Nichts"
+      },
+      {
+        "title": "Alles gut wie es aktuell ist",
+        "val": "Alles gut wie es aktuell ist"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Was finden Sie schlecht an aktuellen Datenschutzbestimmungen?",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Einfache Aktzeptierung",
+        "val": "Einfache Aktzeptierung"
+      },
+      {
+        "title": "Strukturierung",
+        "val": "Strukturierung"
+      },
+      {
+        "title": "Verwendung von Farben",
+        "val": "Verwendung von Farben"
+      },
+      {
+        "title": "Formulierung",
+        "val": "Formulierung"
+      },
+      {
+        "title": "Textformatierung",
+        "val": "Textformatierung"
+      },
+      {
+        "title": "Verwendung von Icons",
+        "val": "Verwendung von Icons"
+      },
+      {
+        "title": "Verwendung von Bilder",
+        "val": "Verwendung von Bilder"
+      },
+      {
+        "title": "Nichts",
+        "val": "Nichts"
+      },
+      {
+        "title": "Ich mag aktuelle Datenschutzerklärungen nicht",
+        "val": "Ich mag aktuelle Datenschutzerklärungen nicht"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Was könnte Ihrer Meinung nach an Datenschutzbestimmungen verbessert werden?",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Einfachere Aktzeptierung",
+        "val": "Einfachere Aktzeptierung"
+      },
+      {
+        "title": "Strukturierung",
+        "val": "Strukturierung"
+      },
+      {
+        "title": "Verwendung von Farben",
+        "val": "Verwendung von Farben"
+      },
+      {
+        "title": "Formulierung",
+        "val": "Formulierung"
+      },
+      {
+        "title": "Textformatierung",
+        "val": "Textformatierung"
+      },
+      {
+        "title": "Verwendung von Icons",
+        "val": "Verwendung von Icons"
+      },
+      {
+        "title": "Verwendung von Bilder",
+        "val": "Verwendung von Bilder"
+      },
+      {
+        "title": "Nichts",
+        "val": "Nichts"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Haben Sie ob in Beruf, Studium oder sonstigem, schon Kontakt mit Datenschutz gehabt?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Bin mir nicht sicher",
+        "val": "Nicht sicher"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  }
+],
+  "next": "question2"}

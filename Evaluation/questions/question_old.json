@@ -1,0 +1,594 @@
+{"questions": [
+  {
+    "id": 1,
+    "question": "Wie wichtig ist Ihnen Datenschutz im Internet?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Sehr wichtig",
+        "val": "Sehr wichtig"
+      },
+      {
+        "title": "wichtig",
+        "val": "wichtig"
+      },
+      {
+        "title": "Weder wichtig, noch unwichtig",
+        "val": "Weder wichtig, noch unwichtig"
+      },
+      {
+        "title": "unwichtig",
+        "val": "unwichtig"
+      },
+      {
+        "title": "Sehr unwichtig",
+        "val": "Sehr unwichtig"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Haben Sie jemals eine Datenschutzerklärung, entweder auf Facebook, Amazon, etc., aktzeptiert? (Wenn nein, weiter mit Frage 5)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Bin mir nicht sicher",
+        "val": "Nicht sicher"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Wenn ja, wie würden Sie die Verständlichkeit dieser Datenschutzerklärung beurteilen?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Sehr Verständlich",
+        "val": "Sehr Verständlich"
+      },
+      {
+        "title": "Verständlich",
+        "val": "Verständlich"
+      },
+      {
+        "title": "Weder Verständlich, noch unverständlich",
+        "val": "Weder Verständlich, noch unverständlich"
+      },
+      {
+        "title": "Unverständlich",
+        "val": "unverständlich"
+      },
+      {
+        "title": "Sehr Unverständlich",
+        "val": "Sehr Unverständlich"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Was finden Sie gut an aktuellen Datenschutzbestimmungen?",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Einfache Aktzeptierung",
+        "val": "Einfache Aktzeptierung"
+      },
+      {
+        "title": "Strukturierung",
+        "val": "Strukturierung"
+      },
+      {
+        "title": "Verwendung von Farben",
+        "val": "Verwendung von Farben"
+      },
+      {
+        "title": "Formulierung",
+        "val": "Formulierung"
+      },
+      {
+        "title": "Textformatierung",
+        "val": "Textformatierung"
+      },
+      {
+        "title": "Verwendung von Icons",
+        "val": "Verwendung von Icons"
+      },
+      {
+        "title": "Verwendung von Bilder",
+        "val": "Verwendung von Bilder"
+      },
+      {
+        "title": "Nichts",
+        "val": "Nichts"
+      },
+      {
+        "title": "Alles gut wie es aktuell ist",
+        "val": "Alles gut wie es aktuell ist"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Was finden Sie schlecht an aktuellen Datenschutzbestimmungen?",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Einfache Aktzeptierung",
+        "val": "Einfache Aktzeptierung"
+      },
+      {
+        "title": "Strukturierung",
+        "val": "Strukturierung"
+      },
+      {
+        "title": "Verwendung von Farben",
+        "val": "Verwendung von Farben"
+      },
+      {
+        "title": "Formulierung",
+        "val": "Formulierung"
+      },
+      {
+        "title": "Textformatierung",
+        "val": "Textformatierung"
+      },
+      {
+        "title": "Verwendung von Icons",
+        "val": "Verwendung von Icons"
+      },
+      {
+        "title": "Verwendung von Bilder",
+        "val": "Verwendung von Bilder"
+      },
+      {
+        "title": "Nichts",
+        "val": "Nichts"
+      },
+      {
+        "title": "Ich mag aktuelle Datenschutzerklärungen nicht",
+        "val": "Ich mag aktuelle Datenschutzerklärungen nicht"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Was könnte Ihrer Meinung nach an Datenschutzbestimmungen verbessert werden?",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Einfachee Aktzeptierung",
+        "val": "Einfachere Aktzeptierung"
+      },
+      {
+        "title": "Strukturierung",
+        "val": "Strukturierung"
+      },
+      {
+        "title": "Verwendung von Farben",
+        "val": "Verwendung von Farben"
+      },
+      {
+        "title": "Formulierung",
+        "val": "Formulierung"
+      },
+      {
+        "title": "Textformatierung",
+        "val": "Textformatierung"
+      },
+      {
+        "title": "Verwendung von Icons",
+        "val": "Verwendung von Icons"
+      },
+      {
+        "title": "Verwendung von Bilder",
+        "val": "Verwendung von Bilder"
+      },
+      {
+        "title": "Nichts",
+        "val": "Nichts"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Haben Sie ob in Beruf, Studium oder sonstigem, schon Kontakt mit Datenschutz gehabt?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Bin mir nicht sicher",
+        "val": "Nicht sicher"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+
+  {
+    "id": 7,
+    "question": "Würden Sie gerne sämtliche Daten angeführt bekommen, welche für die einzelnen Zwecke verwendet werden?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Würden Sie gerne die Annonymisierungsmethode angeführt bekommen mit der Ihre Daten annonymisiert werden?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Würden Sie gerne das Privatsphäre Model angeführt bekommen, welches verwendet wird um Ihre Daten zu schützen?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Würden Sie gerne angeführt bekommen, wann Ihre Daten spätestens gelöscht werden müssen?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Würden Sie gerne angeführt bekommen, wer der Empfänger Ihrer Daten ist?",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-datenweitergabe",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Teilen auf Sozialen Medien",
+        "val": "Teilen auf Sozialen Medien"
+      },
+      {
+        "title": "Aufbau eines Datennetzwerks",
+        "val": "Aufbau eines Datennetzwerks"
+      },
+      {
+        "title": "Datenweitergabe an Dritte",
+        "val": "Datenweitergabe an Dritte"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-verkauf",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Verkauf auf Sozialen Medien",
+        "val": "Verkauf auf Sozialen Medien"
+      },
+      {
+        "title": "Datenverkauf an Dritte",
+        "val": "Datenverkauf an Dritte"
+      },
+      {
+        "title": "Versand von Geld",
+        "val": "Versand von Geld"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-marketing",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Verwendung der Daten zu Marketingzwecken",
+        "val": "Verwendung der Daten zu Marketingzwecken"
+      },
+      {
+        "title": "Daten zur Verwendung der Aktienanalyse",
+        "val": "Daten zur Verwendung der Aktienanalyse"
+      },
+      {
+        "title": "Erstellung von Datenstatistiken",
+        "val": "Erstellung von Datenstatistiken"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-werbung",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Werbung",
+        "val": "Werbung"
+      },
+      {
+        "title": "Weitergabe der Daten an mehrere",
+        "val": "Weitergabe der Daten an mehrere"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-sicherheit",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Daten zur Verwedung der Verschlüsselung",
+        "val": "Daten zur Verwendung der Verschlüsselung"
+      },
+      {
+        "title": "Daten für die Erhöhung der Sicherheit des Benuterkontos",
+        "val": "Daten für die Erhöhung der Sicherheit des Benutzerkontos"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-newsletter",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "",
+        "val": "Teilen auf Sozi"
+      },
+      {
+        "title": "Aufbau eines Datennetzwerks",
+        "val": "Aufbau eines Datennetzwerks"
+      },
+      {
+        "title": "Datenweitergabe an Dritte",
+        "val": "Datenweitergabe an Dritte"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-kontakt",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Teilen auf Sozialen Medien",
+        "val": "Teilen auf Sozialen Medien"
+      },
+      {
+        "title": "Aufbau eines Datennetzwerks",
+        "val": "Aufbau eines Datennetzwerks"
+      },
+      {
+        "title": "Datenweitergabe an Dritte",
+        "val": "Datenweitergabe an Dritte"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-fortbildung",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Teilen auf Sozialen Medien",
+        "val": "Teilen auf Sozialen Medien"
+      },
+      {
+        "title": "Aufbau eines Datennetzwerks",
+        "val": "Aufbau eines Datennetzwerks"
+      },
+      {
+        "title": "Datenweitergabe an Dritte",
+        "val": "Datenweitergabe an Dritte"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-forschung",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Teilen auf Sozialen Medien",
+        "val": "Teilen auf Sozialen Medien"
+      },
+      {
+        "title": "Aufbau eines Datennetzwerks",
+        "val": "Aufbau eines Datennetzwerks"
+      },
+      {
+        "title": "Datenweitergabe an Dritte",
+        "val": "Datenweitergabe an Dritte"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-buchhaltung",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Teilen auf Sozialen Medien",
+        "val": "Teilen auf Sozialen Medien"
+      },
+      {
+        "title": "Aufbau eines Datennetzwerks",
+        "val": "Aufbau eines Datennetzwerks"
+      },
+      {
+        "title": "Datenweitergabe an Dritte",
+        "val": "Datenweitergabe an Dritte"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-versand",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Teilen auf Sozialen Medien",
+        "val": "Teilen auf Sozialen Medien"
+      },
+      {
+        "title": "Aufbau eines Datennetzwerks",
+        "val": "Aufbau eines Datennetzwerks"
+      },
+      {
+        "title": "Datenweitergabe an Dritte",
+        "val": "Datenweitergabe an Dritte"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden?",
+    "type": "icon",
+    "icon": "lplicon-intern",
+    "placeholder": "",
+    "answers": [
+      {
+        "title": "Teilen auf Sozialen Medien",
+        "val": "Teilen auf Sozialen Medien"
+      },
+      {
+        "title": "Aufbau eines Datennetzwerks",
+        "val": "Aufbau eines Datennetzwerks"
+      },
+      {
+        "title": "Datenweitergabe an Dritte",
+        "val": "Datenweitergabe an Dritte"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "Besondere Anmerkungen oder Anregungen",
+    "type": "text",
+    "placeholder": ""
+  }
+],
+  "next": "question2"}
