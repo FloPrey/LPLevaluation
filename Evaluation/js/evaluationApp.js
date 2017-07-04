@@ -4,6 +4,7 @@
 var evalApp = angular.module('lplevaluation', ['ngRoute', 'ngCookies',  'ngAnimate', 'ui.bootstrap']);
 
 var serverUrl = "http://eval-part-1.dev/saveData.php";
+var mailUrl = "http://eval-part-1.dev/saveMail.php";
 var firstQuestionFile = "question";
 
 evalApp.config(function ($routeProvider) {
@@ -24,7 +25,7 @@ evalApp.controller('appCtrl', function($scope, $http) {
 
 });
 
-evalApp.controller('personalCtrl', function ($scope, $location) {
+evalApp.controller('personalCtrl', function ($scope, $location, $anchorScroll) {
     $scope.personal = {};
     $scope.jobs = [{name: 'Schüler', val: 'schueler'},
         {name: 'Student/in', val: 'student'},
@@ -35,11 +36,20 @@ evalApp.controller('personalCtrl', function ($scope, $location) {
         {name: 'Freuiberufler/in', val:'freiberufler'},
         {name: 'Beamte/r', val:'beamte'},
         {name: 'Nicht Erwerbstätig', val:'nicht-erwerbstätig'},
-        {name: 'Auszubildende/r', val:'auszubildend'}];
+        {name: 'Auszubildende/r', val:'auszubildend'},
+        {name: 'Kein Angabe', val:'keine-angabe'}];
     $scope.personal.job = $scope.jobs[0];
     $scope.savePersonal = function() {
-        localStorage.setItem('personal', JSON.stringify($scope.personal));
-        $location.url('fragen/'+firstQuestionFile);
+        if($scope.personalForm.$valid) {
+            localStorage.setItem('personal', JSON.stringify($scope.personal));
+            $location.url('fragen/' + firstQuestionFile);
+        } else {
+            $scope.hasError = true;
+            var id = $location.hash();
+            $location.hash('top');
+            $anchorScroll();
+            $location.hash(id);
+        }
     }
 });
 
@@ -58,11 +68,7 @@ evalApp.controller('questionsCtrl', function($scope, $http, $routeParams, $locat
     });
     $scope.continue = function() {
         if($scope.questionForm.$valid) {
-            console.log($scope.useranswers);
-            console.log($scope.questionFile);
-            console.log($scope.pastQuestion);
             $scope.pastQuestion[$scope.questionFile] = $scope.useranswers;
-            console.log($scope.pastQuestion);
             localStorage.setItem('questions', JSON.stringify($scope.pastQuestion));
             $location.url('fragen/' + $scope.questions.next);
         } else {
@@ -85,7 +91,7 @@ evalApp.controller('questionsCtrl', function($scope, $http, $routeParams, $locat
                 }
             }).then(function (response) {
                 if(response.data.success) {
-                    $scope.alert = "success";
+                    $location.url('finished');
                 } else {
                     $scope.alert = "danger";
                 }
@@ -99,5 +105,23 @@ evalApp.controller('questionsCtrl', function($scope, $http, $routeParams, $locat
         } else {
 
         }
+    }
+});
+
+evalApp.controller('finishedCtrl', function($scope, $http) {
+    $scope.saveMail = function () {
+        $http({
+            method: 'POST', url: mailUrl, data: $scope.mail, withCredentials: true, headers: {
+                'Content-type': 'application/json; charset=utf-8'
+            }
+        }).then(function (response) {
+            if(response.data.success) {
+                $scope.alert = "success";
+            } else {
+                $scope.alert = "danger";
+            }
+            $scope.message = response.data.message;
+            $scope.finished = true;
+        })
     }
 });

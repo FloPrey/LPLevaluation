@@ -1,7 +1,7 @@
 {"questions": [
   {
     "id": 1,
-    "question": "Wie wichtig ist Ihnen Datenschutz im Internet?",
+    "question": "Wie wichtig ist Ihnen Datenschutz im Internet (Eine Antwort möglich)?",
     "type": "radio",
     "answers": [
       {
@@ -32,7 +32,7 @@
   },
   {
     "id": 2,
-    "question": "Haben Sie jemals eine Datenschutzerklärung, entweder auf Facebook, Amazon, etc., aktzeptiert? (Wenn nein, weiter mit Frage 5)",
+    "question": "Haben Sie jemals eine Datenschutzerklärung, entweder auf Facebook, Amazon, etc., aktzeptiert? (Wenn nein, weiter mit Frage 5) - (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
@@ -55,28 +55,24 @@
   },
   {
     "id": 3,
-    "question": "Wenn ja, wie würden Sie die Verständlichkeit dieser Datenschutzerklärung beurteilen?",
+    "question": "Wenn ja, als wie informativ würde sie diese Datenschutzerklärung beurteilen? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
-        "title": "Sehr Verständlich",
-        "val": "Sehr Verständlich"
+        "title": "Sehr Informativ",
+        "val": "Sehr Informativ"
       },
       {
-        "title": "Verständlich",
+        "title": "Informativ",
         "val": "Verständlich"
       },
       {
-        "title": "Weder Verständlich, noch unverständlich",
-        "val": "Weder Verständlich, noch unverständlich"
+        "title": "Wenig Informativ",
+        "val": "Wenig Informativ"
       },
       {
-        "title": "Unverständlich",
-        "val": "unverständlich"
-      },
-      {
-        "title": "Sehr Unverständlich",
-        "val": "Sehr Unverständlich"
+        "title": "Nicht Informativ",
+        "val": "Nicht Informativ"
       },
       {
         "title": "Ich weiß nicht/Keine Angabe",
@@ -86,7 +82,7 @@
   },
   {
     "id": 4,
-    "question": "Was finden Sie gut an aktuellen Datenschutzbestimmungen?",
+    "question": "Was finden Sie gut an aktuellen Datenschutzbestimmungen? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
       {
@@ -133,12 +129,12 @@
   },
   {
     "id": 5,
-    "question": "Was finden Sie schlecht an aktuellen Datenschutzbestimmungen?",
+    "question": "Was finden Sie schlecht an aktuellen Datenschutzbestimmungen? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
       {
-        "title": "Einfache Aktzeptierung",
-        "val": "Einfache Aktzeptierung"
+        "title": "Aktzeptierung durch Haken setzen",
+        "val": "Aktzeptierung durch Haken setzen"
       },
       {
         "title": "Strukturierung",
@@ -180,7 +176,7 @@
   },
   {
     "id": 6,
-    "question": "Was könnte Ihrer Meinung nach an Datenschutzbestimmungen verbessert werden?",
+    "question": "Was könnte Ihrer Meinung nach an Datenschutzbestimmungen verbessert werden? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
       {
@@ -214,29 +210,6 @@
       {
         "title": "Nichts",
         "val": "Nichts"
-      },
-      {
-        "title": "Ich weiß nicht/Keine Angabe",
-        "val": "Ich weiß nicht/Keine Angabe"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "question": "Haben Sie ob in Beruf, Studium oder sonstigem, schon Kontakt mit Datenschutz gehabt?",
-    "type": "radio",
-    "answers": [
-      {
-        "title": "Ja",
-        "val": "Ja"
-      },
-      {
-        "title": "Bin mir nicht sicher",
-        "val": "Nicht sicher"
-      },
-      {
-        "title": "Nein",
-        "val": "Nein"
       },
       {
         "title": "Ich weiß nicht/Keine Angabe",

@@ -1,9 +1,9 @@
 {"questions": [
   {
-    "id": 8,
-    "question": "Möchten Sie über die Verwendungszwecke der Daten informiert werden?",
+    "id": 7,
+    "question": "Möchten Sie über die Verwendungszwecke der Daten informiert werden? (Eine Antwort möglich)",
     "type": "radio",
-    "header": "Laut dem Bundesministerium der Justiz und für Verbraucherschutz sollen Datenerhebungen immer Zweckgebunden sein. Die Nächsten Fragen beziehen sich auf Teile der Datenschutzerklärung.",
+    "header": "Laut dem Bundesministerium der Justiz und für Verbraucherschutz sollte eine Einwilligung einer Datenschutzerklärung für jeden Zweck der Datenverarbietung eingewilligt werden. Diese Einwilligung sollte durch eine eindeutige bestätigende Handlung erfolgen, mit der freiwillig, für den konkreten Fall, in informierter Weise und unmissverständlich bekundet wurd, dass die betroffene Person mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist, etwa in Form einer schriftlichen Erklärung, die auch elektronisch erfolgen kann.",
     "answers": [
       {
         "title": "Ja",
@@ -24,8 +24,31 @@
     ]
   },
   {
+    "id": 8,
+    "question": "Haben Sie ob in Beruf, Studium oder sonstigem, schon Kontakt mit Datenschutz gehabt? (Eine Antwort möglich)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Bin mir nicht sicher",
+        "val": "Nicht sicher"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
     "id": 9,
-    "question": "Wie würden Sie gern über die Zwecke informiert werden?",
+    "question": "Wie würden Sie gern über die Zwecke informiert werden? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
       {
@@ -64,7 +87,7 @@
   },
   {
     "id": 10,
-    "question": "Welche Zwecke würden Sie als sensibel einstufen?",
+    "question": "Welche Zwecke würden Sie als sensibel einstufen? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
       {
@@ -78,6 +101,10 @@
       {
         "title": "Marketing",
         "val": "Marketing"
+      },
+      {
+        "title": "Erstellung eines Profils",
+        "val": "Erstellung eines Profils"
       },
       {
         "title": "Werbung",
@@ -123,7 +150,7 @@
   },
   {
     "id": 11,
-    "question": "Möchten Sie darüber informiert werden welche Daten (Name, Adressen, E-Mail...) erhoben werden?",
+    "question": "Möchten Sie darüber informiert werden welche Daten (Name, Adressen, E-Mail...) erhoben werden? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
@@ -146,7 +173,7 @@
   },
   {
     "id": 12,
-    "question": "Über welche Daten würden Sie gerne informiert werden?",
+    "question": "Über welche Daten würden Sie gerne informiert werden? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
       {
@@ -185,7 +212,7 @@
   },
   {
     "id": 13,
-    "question": "Welche Daten würden Sie als sensibel einstuffen?",
+    "question": "Welche Daten würden Sie als sensibel einstuffen? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
       {
@@ -244,7 +271,7 @@
   },
   {
     "id": 14,
-    "question": "Würde es Sie interessieren ob Ihre Daten anonymisiert werden?",
+    "question": "Würde es Sie interessieren ob Ihre Daten anonymisiert werden? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
@@ -271,7 +298,7 @@
   },
   {
     "id": 15,
-    "question": "Würden es Sie interessieren wie wahrscheinlich es ist, dass Sie in einem anonymisierten Datensatz identifiziert werden?",
+    "question": "Würden es Sie interessieren wie wahrscheinlich es ist, dass Sie in einem anonymisierten Datensatz identifiziert werden? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
@@ -298,12 +325,24 @@
   },
   {
     "id": 16,
-    "question": "Welche Wahrscheinlicheit würden Sie als sicher einstufen, mit der Sie in einem anonymisierten Datensatz identifiziert werden können?",
+    "question": "Welche Wahrscheinlicheit würden Sie als sicher einstufen, mit der Sie in einem anonymisierten Datensatz identifiziert werden können? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
+        "title": "80%",
+        "val": "80%"
+      },
+      {
+        "title": "66,6%",
+        "val": "66,6%"
+      },
+      {
         "title": "50%",
         "val": "50%"
+      },
+      {
+        "title": "40%",
+        "val": "40%"
       },
       {
         "title": "33,3%",
@@ -318,6 +357,10 @@
         "val": "20%"
       },
       {
+        "title": "15%",
+        "val": "15%"
+      },
+      {
         "title": "10%",
         "val": "10%"
       },
@@ -329,7 +372,7 @@
   },
   {
     "id": 17,
-    "question": "Würde es Sie interessieren bis wann Ihre Daten spätestens wieder gelöscht werden müssen?",
+    "question": "Würde es Sie interessieren bis wann Ihre Daten spätestens wieder gelöscht werden müssen? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
@@ -352,7 +395,7 @@
   },
   {
     "id": 18,
-    "question": "Würde es Sie interessieren wer der Empfänger Ihrer Daten ist?",
+    "question": "Würde es Sie interessieren wer der Empfänger Ihrer Daten ist? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
@@ -375,7 +418,7 @@
   },
   {
     "id": 19,
-    "question": "Wie würden Sie gerne die Empfänger Ihrer Daten angezeigt bekommen?",
+    "question": "Wie würden Sie gerne die Empfänger Ihrer Daten angezeigt bekommen? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
@@ -403,7 +446,7 @@
 
   {
     "id": 20,
-    "question": "Welche Empfänger würden Sie als sensibel einstuffen?",
+    "question": "Welche Empfänger würden Sie als sensibel einstuffen? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
       {
@@ -413,6 +456,18 @@
       {
         "title": "Öffentlichkeit",
         "val": "Öffentlichkeit"
+      },
+      {
+        "title": "Datenhändler",
+        "val": "Datenhändler"
+      },
+      {
+        "title": "Werbeagentur",
+        "val": "Werbeagentur"
+      },
+      {
+        "title": "Tochterfirmen",
+        "val": "Tochterfirmen"
       },
       {
         "title": "Weitere Geschäftspartner",
