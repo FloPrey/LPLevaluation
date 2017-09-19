@@ -1,0 +1,67 @@
+{
+  "task1": {"question":\"In der Datenschutzerklärung wird angeführt für wie lange Daten gespeichert werden. Wenn Daten heute erhoben werden, bis zu welchem Tag werden diese dann gespeichert?\",\"answer\":\"2017-09-23T22:00:00.000Z\",\"neededTime\":9.976595000000001}",
+  "task2": "{\"question\":\"In der Datenschutzerklärung wird angeführt an wen die Daten weitergegeben werden dürfen. Welche Empfänger der Daten werden in dieser Datenschutzerklärung angegeben?\",\"answer1\":\"bmbf\",\"answer2\":\"lalala\",\"answer3\":\"test\",\"neededTime\":12.556969999999998}",
+  "task3": "{\"questions\":[{\"id\":1,\"question\":\"Zu welchen Zwecken werden Daten in dieser Datenschutzerklärung erhoben?\",\"type\":\"checkbox\",\"answers\":[\"Statistik\",\"Werbezwecke\",\"Jahresbericht\",\"Erhöhen der internen Sicherheit\",\"Öffentliche Meldungen\",\"Erfahrungsberichte\",\"Kontaktaufnahem\"],\"$$hashKey\":\"object:118\"},{\"id\":2,\"question\":\"Wie lange werden sämtliche Daten gespeichert?\",\"type\":\"radio\",\"answers\":[\"Keine Löschpflicht\",\"Bis zum Ende dieses Jahres\",\"Nach Erfüllung des Zwecks\"],\"$$hashKey\":\"object:119\"}],\"answerTime\":11.358859999999996}",
+  "task4": {
+    "counter": 0,
+    "questions": [
+      {
+        "id": 1,
+        "question": "Dürfen meine Daten zu Markforschungszwecke verwendet werden?",
+        "type": "radio",
+        "answers": [
+          "Ja",
+          "Nein",
+          "Keine Angabe"
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Dürfen meine Daten zum Versand eines Newsletters verwendet werden?",
+        "type": "radio",
+        "answers": [
+          "Ja",
+          "Nein",
+          "Keine Angabe"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Dürfen meine Daten veröffentlicht werden?",
+        "type": "radio",
+        "answers": [
+          "Ja",
+          "Nein",
+          "Keine Angabe"
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Werden meine Kundenkonto Daten an Dritte weitergegeben?",
+        "type": "radio",
+        "answers": [
+          "Ja",
+          "Nein",
+          "Keine Angabe"
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Wer erhält Informationen zu einem von mir getätigten Kauf?",
+        "type": "checkbox",
+        "answers": [
+          "Webshop",
+          "Werbepartner",
+          "Transportunternehmen",
+          "Partnerunternehmen",
+          "Werbeabteilung",
+          "Logistiker",
+          "Banken",
+          "Tochterfirmen",
+          "Keine Angabe"
+        ]
+      }
+    ],
+    "answerTime": null
+  }
+}

@@ -1,0 +1,799 @@
+{
+  "layeredPrivacyPolicy": {
+    "name": "Create Policy",
+    "lang": "de",
+    "headerList": {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Datenschutzerklärung des Bundesministeriums für Bildung und Forschung"
+        }
+      ]
+    },
+    "iconList": {
+      "icon": [
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Statistische Zwecke"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Für die Webanwendung werden anonymisierte statistische Daten erhoben."
+              }
+            ]
+          },
+          "name": "lplicon-marketing-spy"
+        },
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Warenkorb"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Für Bestellzwecke wird ein Warenkorb angelegt"
+              }
+            ]
+          },
+          "name": "lplicon-shopping-cart-b"
+        },
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Newsletter"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Daten werden für Newsletterversand verwendet"
+              }
+            ]
+          },
+          "name": "lplicon-newsletter"
+        },
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Bestellung"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Daten werden für Bestellungen verwendet."
+              }
+            ]
+          },
+          "name": "lplicon-shipping"
+        }
+      ]
+    },
+    "privacyPolicyUri": "https://www.bmbf.de/de/datenschutzerklaerung-12.html",
+    "dataSource": {},
+    "purposeList": {
+      "purpose": [
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "BMBF"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Bundesministerium für Bildung und Forschung"
+                    }
+                  ]
+                },
+                "name": "bmbf",
+                "type": "Staatliche Einrichtung",
+                "authorityChain": ""
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Browsertyp"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Typ und Version Ihres Internet-Browsers"
+                    }
+                  ]
+                },
+                "name": "browser",
+                "dataGroup": "Web",
+                "dataType": "String",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Aufgerufene Seite"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Die von Ihnen aufgerufene Seite"
+                    }
+                  ]
+                },
+                "name": "page",
+                "dataGroup": "Web",
+                "dataType": "URL",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Zuvor besuchte Seite"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Die zuvor besuchte Seite (Referrer URL)"
+                    }
+                  ]
+                },
+                "name": "refurl",
+                "dataGroup": "Web",
+                "dataType": "URL",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Uhrzeit"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Uhrzeit und Datum der Serveranfrage"
+                    }
+                  ]
+                },
+                "name": "datetime",
+                "dataGroup": "Web",
+                "dataType": "datetime",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Betriebssystem"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Ihr verwendetes Betriebssystem"
+                    }
+                  ]
+                },
+                "name": "betriebssystem",
+                "dataGroup": "Web",
+                "dataType": "String",
+                "required": true
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Keine Löschpflicht"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Da Daten nicht einem Benutzer zugeordnet werden können, werden sämtliche Daten nicht gelöscht."
+                }
+              ]
+            },
+            "type": "INDIFINITE"
+          },
+          "privacyModelList": {
+            "privacyModel": []
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Statistische Zwecke"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Bei jedem Besuch einer Internetseite werden Daten erhoben und ausgetauscht. Das BMBF erhebt und speichert automatisch Daten, die Ihr Browser an unseren Server übermittelt. Das BMBF wertet Daten allein für statistische Zwecke aus, um die Nachfrage nach BMBF-Webangeboten zu messen. Das BMBF hat keine Möglichkeit, diese Daten einer bestimmten Person zuzuordnen. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen."
+              }
+            ]
+          },
+          "name": "statistik",
+          "required": true,
+          "optOut": false
+        },
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "BMBF"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Bundesministerium für Bildung und Forschung"
+                    }
+                  ]
+                },
+                "name": "BMBF",
+                "type": "Staatliche Einrichtung",
+                "authorityChain": ""
+              },
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Versandfirmen"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Versandfirma"
+                    }
+                  ]
+                },
+                "name": "versand",
+                "type": "Versand",
+                "authorityChain": ""
+              },
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Behörden & Einrichtungen"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Ggf. andere Behörden oder Einrichtungen, sofern diese das bestellte Material versenden"
+                    }
+                  ]
+                },
+                "name": "behörden",
+                "type": "Staatliche Einrichtung",
+                "authorityChain": ""
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Herkunft"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Für den Warenkorb wird ein Session-Cookie angelegt bei welchem die Herkunft des Cookies gespeichert wird"
+                    }
+                  ]
+                },
+                "name": "origin",
+                "dataGroup": "Bestellung",
+                "dataType": "String",
+                "required": false
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Speicherfrist"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Für den Bestellvorgang werden Session-Cookies angelegt von welchem die Speicherfrist eingetragen werden"
+                    }
+                  ]
+                },
+                "name": "savetime",
+                "dataGroup": "Bestellung",
+                "dataType": "datetime",
+                "required": false
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Nach Erfüllung des Zwecks"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Nach dem Bestellvorgang oder wenn das Browserfenster geschlossen wird, wird auch das Session-Cookie gelöscht."
+                }
+              ]
+            },
+            "type": "AFTERPURPOSE"
+          },
+          "privacyModelList": {
+            "privacyModel": []
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Bestellungen"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Damit Sie Broschüren auf jeder Seite des BMBF-Angebots bestellen können, und Ihre Bestellung in einem Warenkorb gesammelt wird, verwendet das BMBF so genannte Session-Cookies. Session-Cookies sind kleine Informationseinheiten, die ein Anbieter im Arbeitsspeicher des Computers des Besuchers speichert. Wenn Sie uns eine E-Mail senden, so wird diese Mail und Ihre E-Mail-Adresse ausschließlich für die Korrespondenz mit Ihnen verwandt. Im Falle von Bestellungen werden die angegebenen persönlichen Daten nur für die Abwicklung der Bestellung an Dritte weitergegeben. Nach Erfüllung Ihrer Bestellwünsche werden Ihre Angaben gelöscht. "
+              }
+            ]
+          },
+          "name": "bestellungen",
+          "required": true,
+          "optOut": false
+        },
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "BMBF"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Bundesministerium für Bildung und Forschung"
+                    }
+                  ]
+                },
+                "name": "bmbf",
+                "type": "Staatliche Einrichtung",
+                "authorityChain": ""
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "E-Mail Adresse"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Für den Versand eines Newsletters wird Ihre E-Mail Adresse gespeichert."
+                    }
+                  ]
+                },
+                "name": "email",
+                "dataGroup": "newsletter",
+                "dataType": "mail",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Newsletterliste"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Die von Ihnen ausgewählte(n) Newsletterliste(n)."
+                    }
+                  ]
+                },
+                "name": "newsletterlist",
+                "dataGroup": "newsletter",
+                "dataType": "list",
+                "required": true
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Keine Löschpflicht"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Daten werden erst gelöscht wenn Sie sich für vom Newsletter austragen."
+                }
+              ]
+            },
+            "type": "INDIFINITE"
+          },
+          "privacyModelList": {
+            "privacyModel": []
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Newsletter"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Wir setzen diese Daten ausschließlich für den Versand der Newsletter ein. Zur Analyse der Systemleistung werden die Datensätze für statistische Auswertungen genutzt. Wir geben Ihre Daten nicht an Dritte weiter und nutzen sie auch nicht für sonstige eigene Zwecke."
+              }
+            ]
+          },
+          "name": "newsletter",
+          "required": false,
+          "optOut": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,142 @@
+<style type="text/css">
+    .load-item {
+        display: none;
+    }
+    .loader {
+        background-color: transparent;
+        border: 16px solid #f3f3f3;
+        border-top: 16px solid #030303;
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        animation: pulse 2s linear infinite;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .loader div {
+        width: 100px;
+        height: 108px;
+        animation: backpulse 2s linear infinite;
+        background-image: url("../img/lpl.png");
+        background-size: 80px 70px;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    @keyframes pulse {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    @keyframes backpulse {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
+    }
+
+</style>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>Aufgabe 2</h3>
+        </div>
+        <div class="panel-body">
+            <h2>{{task2.question}}</h2>
+        </div>
+    </div>
+    <div class="container">
+        <h3>Datenschutzerklärung</h3>
+
+        <div class="article-section">
+            <p>Die Nutzung des Webangebots des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> ist grundsätzlich ohne Bekanntgabe personenbezogener Informationen möglich. Personenbezogene Daten werden auf dieser Webseite nur&nbsp;dann im technisch notwendigen Umfang erhoben, wenn Sie selbst etwas bestellen oder sich an einem Newsletter-Verteiler anmelden.</p>
+
+            <p>Die nachfolgende Erklärung gibt Ihnen einen vollständigen Überblick darüber, wie das <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> den Schutz Ihrer Daten gewährleistet und welche Art von Daten zu welchem Zweck erhoben werden.</p>
+
+            <h2>Datenverarbeitung auf dieser Internetseite</h2>
+
+            <p>Bei jedem Besuch einer Internetseite werden Daten erhoben und ausgetauscht. Das <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> erhebt und speichert automatisch Daten, die Ihr Browser an unseren Server übermittelt. Dies sind:</p>
+
+            <ul>
+                <li>Typ und Version Ihres Internet-Browsers</li>
+                <li>verwendetes Betriebssystem</li>
+                <li>die aufgerufene Seite</li>
+                <li>die zuvor besuchte Seite (Referrer URL)</li>
+                <li>Uhrzeit der Serveranfrage.</li>
+            </ul>
+
+            <p>Das <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> wertet Daten allein für statistische Zwecke aus, um die Nachfrage nach <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr>-Webangeboten zu messen. Das <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> hat keine Möglichkeit, diese Daten einer bestimmten Person zuzuordnen. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Die IP-Nummern werden für die Dauer des Besuchs für die Beantwortung der Abfragen erfasst und nicht über das Ende des Besuchs hinaus gespeichert. Daten, die beim Zugriff auf das Internetangebot des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> protokolliert wurden, werden an Dritte nur übermittelt, soweit wir gesetzlich oder durch Gerichtsentscheidung dazu verpflichtet sind oder die Weitergabe im Falle von Angriffen auf die Internetinfrastruktur des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> zur Rechts- oder Strafverfolgung erforderlich ist. Eine Weitergabe in anderen Fällen erfolgt nicht. Sie können [<a class="icon-link-external" href="http://www.bmbf.de/_inc/browserinfo.php">hier</a>] einsehen, welche Daten Ihr Internetbrowser an unseren Server übermittelt.</p>
+
+            <h2>Cookies</h2>
+
+            <p>Damit Sie Broschüren auf jeder Seite des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr>-Angebots bestellen können, und Ihre Bestellung in einem Warenkorb gesammelt wird, verwendet das <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> so genannte Session-Cookies. Session-Cookies sind kleine Informationseinheiten, die ein Anbieter im Arbeitsspeicher des Computers des Besuchers speichert. In einem Session-Cookie wird eine zufällig erzeugte eindeutige Identifikationsnummer abgelegt, eine sogenannte Session-ID. Außerdem enthält ein Cookie die Angabe über seine Herkunft und die Speicherfrist. Diese Cookies können keine anderen Daten speichern. Mit der Session-ID werden Ihre Bestellungen in Ihrem Warenkorb zusammengestellt.</p>
+
+            <p>Es gibt auch&nbsp;dauerhafte Cookies, um Besucher auch nach langer Zeit wieder erkennen zu können. Diese Informationen werden dann als Textdatei auf der Festplatte des Computers des Besuchers gespeichert. Im Unterschied dazu werden die vom <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> eingesetzten Session-Cookies <em>gelöscht</em>, wenn Sie die Sitzung beenden. Wenn Sie das Browserfenster schließen oder eine andere Seite aufrufen, wird Ihr Warenkorb zurückgesetzt. Die bis dahin gesammelten Warenkorbinhalte müssen neu zusammengestellt werden, wenn Sie die Sitzung beendet, den Bestellvorgang aber nicht abgeschlossen haben.</p>
+
+            <h3>Umgang mit Cookies</h3>
+
+            <p>Cookies lassen sich mit allen Internetbrowsern steuern. Die meisten Browser sind so eingestellt, dass alle Cookies akzeptiert werden, ohne die Benutzer zu fragen. Wenn Sie die Warenkorb-Funktion des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> nutzen möchten, sollten Sie Ihren Browser so einstellen, dass Session-Cookies akzeptiert werden.</p>
+
+            <p>Wenn Sie alle Cookies ablehnen,</p>
+
+            <ul type="circle">
+                <li>kann der Warenkorb nicht zum Sammeln verschiedener Publikationen genutzt werden und</li>
+                <li>kann nur jeweils eine Broschüre bestellt werden.</li>
+            </ul>
+
+            <h2>Analysedienste</h2>
+
+            <p>Darüberhinaus wird auf unserer Website Piwik eingesetzt. Dabei handelt es sich um einen sogenannten Webanalysedienst. Piwik verwendet&nbsp;ebenfalls Cookies, die unsererseits eine Analyse der Benutzung der Webseite ermöglichen. Zu diesem Zweck werden die durch den Cookie erzeugten Nutzungsinformationen (einschließlich Ihrer gekürzten IP-Adresse) an unseren Server übertragen und zu Nutzungsanalysezwecken gespeichert, was der Webseitenoptimierung unsererseits dient. Ihre IP-Adresse wird bei diesem Vorgang umge­hend anony­mi­siert, so dass Sie als Nutzer für uns anonym bleiben. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Webseite werden nicht an Dritte weitergegeben. Wenn Sie mit der Spei­che­rung und Aus­wer­tung die­ser Daten aus Ihrem Besuch nicht ein­ver­stan­den sind, dann kön­nen Sie der Spei­che­rung und Nut­zung nachfolgend per Maus­klick jederzeit wider­spre­chen. In diesem Fall wird in Ihrem Browser ein sog. Opt-Out-Cookie abgelegt, was zur Folge hat, dass Piwik kei­ner­lei Sit­zungs­da­ten erhebt. Achtung: Wenn Sie Ihre Cookies löschen, so hat dies zur Folge, dass auch das Opt-Out-Cookie gelöscht wird und ggf. von Ihnen erneut aktiviert werden muss. <em>(Quelle: <a class="icon-link-external" href="http://www.datenschutzbeauftragter-info.de">datenschutzbeauftragter-info.de</a>)</em></p>
+
+            <h3>Widerspruch</h3>
+
+            <p><iframe src="https://tracking.bmbfcluster.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;idSite=9&amp;language=de" width="95%" height="200" frameborder="no"></iframe></p>
+
+            <h2>Daten für den Newsletter-Versand</h2>
+
+            <p>Wenn Sie sich auf einem der Newsletter-Verteiler des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> eintragen, werden Ihre E-Mail-Adresse sowie die von Ihnen gewählte(n) Newsletterliste(n) von uns auf einem Server gespeichert. Wir setzen diese Daten ausschließlich für den Versand der Newsletter ein. Zur Analyse der Systemleistung werden die Datensätze für statistische Auswertungen genutzt. Wir geben Ihre Daten nicht an Dritte weiter und nutzen sie auch nicht für sonstige eigene Zwecke. Durch das Anmeldesystem mit einer zusätzlichen Bestätigungsnachricht, die einen Link zur endgültigen Registrierung enthält (Double-opt-in) ist sichergestellt, dass der Newsletter von Ihnen explizit erwünscht ist.</p>
+
+            <p>Sie können Ihre gespeicherten Daten jederzeit über die <a class="icon-link" href="http://www.bmbf.de/newsletter/?p=preferences" title="Daten einsehen">entsprechende Internetseite</a> einsehen. Hierzu benötigen Sie die E-Mail-Adresse, unter der Sie sich für den Newsletter registriert haben.</p>
+
+            <h2>Bestellungen und E-Mails an das <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr></h2>
+
+            <p>Wenn Sie uns eine E-Mail senden, so wird diese Mail und Ihre E-Mail-Adresse ausschließlich für die Korrespondenz mit Ihnen verwandt. Im Falle von Bestellungen werden die angegebenen persönlichen Daten nur für die Abwicklung der Bestellung an Dritte (Versandfirma, ggf. andere Behörden oder Einrichtungen, sofern diese das bestellte Material versenden) weitergegeben. Nach Erfüllung Ihrer Bestellwünsche werden Ihre Angaben gelöscht. Die Aufbewahrung von Bürgeranfragen in Papier wie auch in elektronischer Form erfolgt gemäß den für die Aufbewahrung von Schriftgut geltenden Fristen der Registraturrichtlinie, die die Gemeinsame Geschäftsordnung der Bundesministerien (GGO) ergänzt.</p>
+
+            <h2>Auskunftsrecht</h2>
+
+            <p>Sie haben jederzeit das Recht auf Auskunft über die bezüglich Ihrer Person gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Speicherung. Auskunft über die gespeicherten Daten gibt Ihnen die Internetredaktion des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> (<a class="icon-mail" href="javascript:void(location.href='mailto:'+String.fromCharCode(105,110,102,111,114,109,97,116,105,111,110,64,98,109,98,102,46,98,117,110,100,46,100,101))">information@bmbf.bund.de</a>). Sie können sich mit Fragen und Beschwerden auch an die <a class="icon-link" href="/de/die-datenschutzbeauftragte-des-bmbf-197.html">Datenschutzbeauftragte des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr></a> wenden.</p>
+
+            <h2>Prüfen Sie Ihre Daten</h2>
+
+            <p>Sie können die von Ihrem Browser an unseren Server automatisch übermittelten Daten [<a class="icon-link-external" href="http://www.bmbf.de/_inc/browserinfo.php">hier</a>] einsehen.</p>
+
+            <p>Sie können sich mit jedem Internetbrowser anzeigen lassen, wenn Cookies gesetzt werden und, was sie enthalten. Detaillierte Informationen bietet der Internetauftritt der <a class="icon-link-external" href="http://www.bfdi.bund.de">Bundesbeauftragte für den Datenschutz und die Informationsfreiheit</a>&nbsp;und des Bundesamtes für Sicherheit in der Informationstechnik an..</p>
+
+            <p>Sie können Ihre für den Newsletter-Versand gespeicherten Daten jederzeit über die <a class="icon-link" href="https://www.bmbf.de/newsletter/index.php?p=preferences">entsprechende Internetseite einsehen</a>. Hierzu benötigen Sie die E-Mail-Adresse, unter der Sie sich für den Newsletter registriert haben.</p>
+        </div>
+    </div>
+    <br /><br />
+    <div class="row">
+        <div class="form-inline">
+            <label class="col-sm-2">Antwort:</label>
+            <div class="col-sm-10">
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="true" ng-model="task2.bmbf" > Bildungsministerium f. Bildung & Forschung
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="true" ng-model="task2.forschungsinstitute" > Forschungsinstitute
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="true" ng-model="task2.versandfirmen" > Versandfirmen
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="true" ng-model="task2.behoerden" > Behörden und Einrichtungen
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="true" ng-model="task2.partner" > Partnerkonzerne
+                </label>
+            </div>
+        </div>
+    </div>
+    <a class="btn btn-success pull-right" ng-click="saveTask()">Weiter</a>
+    <br />
+</div>

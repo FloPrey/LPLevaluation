@@ -1,0 +1,16 @@
+<div class="page-header"><h3>Fragebogen abgeschlossen</h3></div>
+
+<p class="well success">
+    Vielen Dank! Deine Daten wurden erfolgreich gespeichert!
+</p>
+<p>
+    Falls Sie an weiteren Umfragen zum Thema Datenschutz teilnehmen wollen, tragen sie hier bitte Ihre Mailadresse ein:<br /><br />
+    <div class="row">
+        <div class=" col-sm-9">
+            <input class="form-control" type="email" ng-model="mail" placeholder="Ihre@mail.net" />
+        </div>
+        <button class="btn btn-success col-sm-2" ng-click="saveMail()">Eintragen</button>
+    </div>
+    <br />
+    <div class="alert alert-{{alert}}" ng-show="finished">{{message}}</div>
+</p>

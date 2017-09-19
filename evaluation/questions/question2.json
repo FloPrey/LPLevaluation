@@ -1,0 +1,483 @@
+{"questions": [
+  {
+    "id": 7,
+    "question": "Möchten Sie über die Verwendungszwecke der Daten informiert werden? (Eine Antwort möglich)",
+    "type": "radio",
+    "header": "Laut dem Bundesministerium für Justiz und Verbraucherschutz sollte die Einwilligung einer Datenschutzerklärung für jeden Zweck der Datenverarbietung eingewilligt werden. Diese Einwilligung sollte durch eine eindeutige bestätigende Handlung erfolgen, mit der freiwillig, für den konkreten Fall, in informierter Weise und unmissverständlich bekundet wurd, dass die betroffene Person mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist, etwa in Form einer schriftlichen Erklärung, die auch elektronisch erfolgen kann.",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Haben Sie ob in Beruf, Studium oder sonstigem, schon Kontakt mit Datenschutz gehabt? (Eine Antwort möglich)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Bin mir nicht sicher",
+        "val": "Nicht sicher"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Wie würden Sie gern über die Zwecke informiert werden? (Mehrere Antworten möglich)",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Alle Zwecke",
+        "val": "Alle Zwecke"
+      },
+      {
+        "title": "Sensible Zwecke",
+        "val": "Sensible Zwecke"
+      },
+      {
+        "title": "Nur einen Überblick über die Zwecke",
+        "val": "Überblick"
+      },
+      {
+        "title": "Icons die Zwecke symbolisieren",
+        "val": "Icons"
+      },
+      {
+        "title": "Bilder die Zwecke symbolisieren",
+        "val": "Bilder"
+      },
+      {
+        "title": "Details zu Zwecken interessieren mich nicht",
+        "val": "Details zu Zwecken interessieren mich nicht"
+      },
+      {
+        "title": "Gut so wie es in akuellen Datenschutzerklärungen ist",
+        "val": "Gut so wie es in akuellen Datenschutzerklärungen is"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Welche Zwecke würden Sie als sensibel einstufen? (Mehrere Antworten möglich)",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Datenverkauf",
+        "val": "Datenverkauf"
+      },
+      {
+        "title": "Datenweitergabe an Dritte",
+        "val": "Datenweitergabe an Dritte"
+      },
+      {
+        "title": "Marketing",
+        "val": "Marketing"
+      },
+      {
+        "title": "Erstellung eines Profils",
+        "val": "Erstellung eines Profils"
+      },
+      {
+        "title": "Werbung",
+        "val": "Werbung"
+      },
+      {
+        "title": "Erhöhen der Sicherheit des Benutzerkontos",
+        "val": "Erhöhen der Sicherheit des Benutzerkontos"
+      },
+      {
+        "title": "Newsletter Versand",
+        "val": "Newsletter Versand"
+      },
+      {
+        "title": "Kontakt",
+        "val": "Kontakt"
+      },
+      {
+        "title": "Ausbildungszwecke",
+        "val": "Ausbildungszwecke"
+      },
+      {
+        "title": "Forschungszwecke",
+        "val": "Forschungszwecke"
+      },
+      {
+        "title": "Rechnung/Buchhaltung",
+        "val": "Rechnung/Buchhaltung"
+      },
+      {
+        "title": "Versand",
+        "val": "Versand"
+      },
+      {
+        "title": "Interne Verbesserung",
+        "val": "Interne Verbesserung"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Möchten Sie darüber informiert werden welche Daten (Name, Adressen, E-Mail...) erhoben werden? (Eine Antwort möglich)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Über welche Daten würden Sie gerne informiert werden? (Mehrere Antworten möglich)",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Alle Daten",
+        "val": "Alle Daten"
+      },
+      {
+        "title": "Sensible Daten",
+        "val": "Sensible Daten"
+      },
+      {
+        "title": "Nur einen Überblick über die Daten",
+        "val": "Überblick"
+      },
+      {
+        "title": "Icons die Daten symbolisieren",
+        "val": "Icons"
+      },
+      {
+        "title": "Bilder die Daten symbolisieren",
+        "val": "Bilder"
+      },
+      {
+        "title": "Details zu Daten interessieren mich nicht",
+        "val": "Details zu Daten interessieren mich nicht"
+      },
+      {
+        "title": "Gut so wie es in akuellen Datenschutzerklärungen ist",
+        "val": "Gut so wie es in akuellen Datenschutzerklärungen is"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Welche Daten würden Sie als sensibel einstuffen? (Mehrere Antworten möglich)",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Name",
+        "val": "Name"
+      },
+      {
+        "title": "E-Mail Adresse",
+        "val": "E-Mail Adresse"
+      },
+      {
+        "title": "Telefonnummer",
+        "val": "Telefonnummer"
+      },
+      {
+        "title": "Adresse",
+        "val": "Adresse"
+      },
+      {
+        "title": "Geburtsdatum",
+        "val": "Gebrtsdatum"
+      },
+      {
+        "title": "Geschlecht",
+        "val": "Geschlecht"
+      },
+      {
+        "title": "Alter",
+        "val": "Alter"
+      },
+      {
+        "title": "IP-Adresse",
+        "val": "IP-Adresse"
+      },
+      {
+        "title": "MAC-Adresse",
+        "val": "MAC-Adresse"
+      },
+      {
+        "title": "Aktueller Standort",
+        "val": "Aktueller Standort"
+      },
+      {
+        "title": "Körpergröße",
+        "val": "Körpergröße"
+      },
+      {
+        "title": "Körpergewicht",
+        "val": "Körpergewicht"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Würde es Sie interessieren ob Ihre Daten anonymisiert werden? (Eine Antwort möglich)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ja, und ich würde auch gerne wissen wie meine Daten anonymisiert werden",
+        "val": "Ja, und wie anonymisiert"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Würden es Sie interessieren wie wahrscheinlich es ist, dass Sie in einem anonymisierten Datensatz identifiziert werden? (Eine Antwort möglich)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ja, ich würde auch gerne das Privatsphäre Model dazu angeführt bekommen",
+        "val": "Ja, und Privatsphäre Model"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Welche Wahrscheinlicheit würden Sie als sicher einstufen, mit der Sie in einem anonymisierten Datensatz identifiziert werden können? (Eine Antwort möglich)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "80%",
+        "val": "80%"
+      },
+      {
+        "title": "66,6%",
+        "val": "66,6%"
+      },
+      {
+        "title": "50%",
+        "val": "50%"
+      },
+      {
+        "title": "40%",
+        "val": "40%"
+      },
+      {
+        "title": "33,3%",
+        "val": "33,3%"
+      },
+      {
+        "title": "25%",
+        "val": "25%"
+      },
+      {
+        "title": "20%",
+        "val": "20%"
+      },
+      {
+        "title": "15%",
+        "val": "15%"
+      },
+      {
+        "title": "10%",
+        "val": "10%"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Würde es Sie interessieren bis wann Ihre Daten spätestens wieder gelöscht werden müssen? (Eine Antwort möglich)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Würde es Sie interessieren wer der Empfänger Ihrer Daten ist? (Eine Antwort möglich)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Ja",
+        "val": "Ja"
+      },
+      {
+        "title": "Ist mir egal",
+        "val": "Ist mir egal"
+      },
+      {
+        "title": "Nein",
+        "val": "Nein"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Wie würden Sie gerne die Empfänger Ihrer Daten angezeigt bekommen? (Eine Antwort möglich)",
+    "type": "radio",
+    "answers": [
+      {
+        "title": "Alle Empfänger",
+        "val": "Alle Empfänger"
+      },
+      {
+        "title": "Nur Sensible Empfänger",
+        "val": "Nur Sensible Empfänger"
+      },
+      {
+        "title": "Nur Überblick über Empfänger",
+        "val": "Nur Überblick über Empfänger"
+      },
+      {
+        "title": "Mich interessieren die Empfänger nicht",
+        "val": "Mich interessieren die Empfänger nicht"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+
+  {
+    "id": 20,
+    "question": "Welche Empfänger würden Sie als sensibel einstuffen? (Mehrere Antworten möglich)",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Freunde",
+        "val": "Freunde"
+      },
+      {
+        "title": "Öffentlichkeit",
+        "val": "Öffentlichkeit"
+      },
+      {
+        "title": "Datenhändler",
+        "val": "Datenhändler"
+      },
+      {
+        "title": "Werbeagentur",
+        "val": "Werbeagentur"
+      },
+      {
+        "title": "Tochterfirmen",
+        "val": "Tochterfirmen"
+      },
+      {
+        "title": "Weitere Geschäftspartner",
+        "val": "Weitere Geschäftspartner"
+      },
+      {
+        "title": "Nur interne Verarbeitung",
+        "val": "Nur interne Verarbeitung"
+      }
+    ]
+  }
+],
+"next": "question3"}

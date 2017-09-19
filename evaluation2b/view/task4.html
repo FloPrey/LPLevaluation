@@ -1,0 +1,50 @@
+<style type="text/css">
+    .load-item {
+        display: none;
+    }
+    .loader {
+        background-color: transparent;
+        border: 16px solid #f3f3f3;
+        border-top: 16px solid #030303;
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        animation: pulse 2s linear infinite;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .loader div {
+        width: 100px;
+        height: 108px;
+        animation: backpulse 2s linear infinite;
+        background-image: url("img/lpl.png");
+        background-size: 80px 70px;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    @keyframes pulse {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    @keyframes backpulse {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
+    }
+
+</style>
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>Aufgabe 4</h3>
+        </div>
+        <div class="panel-body">
+            <h2>{{task4.question}}</h2>
+        </div>
+    </div>
+    <div id="lplTemplate" class="loader"><div></div></div>
+    <input id="lplRes" type="hidden" />
+    <a class="btn btn-success pull-right load-item" ng-click="saveTask()">Weiter</a>
+</div>

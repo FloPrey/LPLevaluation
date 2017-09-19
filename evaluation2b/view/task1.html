@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>Aufgabe 1</h3>
+        </div>
+        <div class="panel-body">
+            <h2>{{task1.question}}</h2>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Protokollierung:</h2>
+        <p class="bodytext">Wegen aufgetretener sicherheitsrelevanter Ereignisse werden bei jedem Zugriff auf den Web-Server der Universität Passau wesentliche Zugriffsdaten gespeichert. Je nach verwendetem Zugriffsprotokoll beinhaltet der Protokolldatensatz Angaben mit folgenden Inhalten: </p><ul><li type="disc">IP-Adresse des anfordernden Rechners </li> <li type="disc">Datum und Uhrzeit der Anforderung </li> <li type="disc">vom anfordernden Rechner gewünschte Zugriffsmethode/Funktion </li> <li type="disc">vom anfordernden Rechner übermittelte Eingabewerte (Dateiname, ...) </li> <li type="disc">Zugriffsstatus des Web-Servers (Datei übertragen, Datei nicht gefunden, Kommando nicht ausgeführt, etc.) </li> <li type="disc">Name der angeforderten Datei </li></ul><p class="bodytext">Die gespeicherten Daten werden ausschließlich zu Zwecken der Identifikation und Nachverfolgung unzulässiger Zugriffsversuche und Zugriffe auf den Web-Server verwendet. Die gespeicherten Daten werden für keine anderen Zwecke als für die Datensicherheit verwendet; so werden auch keine nutzerbezogenen statistischen Auswertungen gefertigt. Die protokollierten Daten werden für die Dauer von 7 Tagen gespeichert und dann gelöscht.
+        </p>
+        <h3>Aktive Komponenten: </h3>
+        <p class="bodytext">Im Informationsangebot der Universität Passau werden Cookies, Javascript und JAVA-Applets verwendet.
+        </p>
+        <h2>E-Mail-Sicherheit:</h2>
+        <p class="bodytext">Kommunikation via E-Mail kann Sicherheitslücken aufweisen; beispielsweise können E-Mails auf ihrem Weg an die Mitarbeiter der Universität Passau von versierten Internet-Nutzern aufgehalten, eingesehen und verfälscht werden. Bei E-Mails mit schutzwürdigem Inhalt empfehlen wir deshalb dringend, diese zu verschlüsseln.
+        </p>
+        <p class="bodytext">Wenn Sie uns eine E-Mail senden, so wird Ihre E-Mail-Adresse nur für die Korrespondenz mit Ihnen verwendet. Falls Sie eine Beantwortung per E-Mail nicht wünschen, müssen Sie ausdrücklich auf eine andere Art der Kommunikation verweisen.</p>
+    </div>
+    <br /><br />
+    <div class="row">
+        <div class="form-inline">
+            <label class="col-sm-2">Antwort:</label>
+            <div class="col-sm-10">
+                <input type="date" class="form-control" placeholder="Löschdatum" ng-click="popup.opened = true" uib-datepicker-popup="{{format}}" ng-model="task1.answer" is-open="popup.opened" datepicker-options="dateOptions" ng-required="true" close-text="Schließen" />
+            </div>
+        </div>
+    </div>
+    <a class="btn btn-success pull-right" ng-click="saveTask()">Weiter</a>
+    <br />
+</div>

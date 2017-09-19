@@ -1,0 +1,315 @@
+{
+  "layeredPrivacyPolicy": {
+    "name": "Create Policy",
+    "lang": "de",
+    "headerList": {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Uni Passau Datenschutzerklärung"
+        }
+      ]
+    },
+    "iconList": {
+      "icon": [
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Sicherheit"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": ""
+              }
+            ]
+          },
+          "name": "lplicon-secure"
+        }
+      ]
+    },
+    "privacyPolicyUri": "http://www.uni-passau.de/universitaet/datenschutzerklaerung/",
+    "dataSource": {},
+    "purposeList": {
+      "purpose": [
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Universität Passau"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Daten werden nur intern von der Universität Passau verarbeitet."
+                    }
+                  ]
+                },
+                "name": "Unipassau",
+                "type": "Universität",
+                "authorityChain": ""
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "IP-Adresse"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "IP-Adresse des angeforderten Rechners"
+                    }
+                  ]
+                },
+                "name": "ip",
+                "dataGroup": "Webzugriff",
+                "dataType": "String",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Datum und Uhrzeit"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Datum und Uhrzeit der Anforderung"
+                    }
+                  ]
+                },
+                "name": "date",
+                "dataGroup": "Webzugriff",
+                "dataType": "Date",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Zugriffsmethode/Funktion"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "vom angeforderten Rechner gewünschte Zugriffsmethode/Funktion"
+                    }
+                  ]
+                },
+                "name": "method",
+                "dataGroup": "Webzugriff",
+                "dataType": "String",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Es findet keine Anonymisierung statt"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Eingabewerte"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "vom angeforderten Rechner übermittelte Eingabewerte (Dateinname, ...)"
+                    }
+                  ]
+                },
+                "name": "input",
+                "dataGroup": "Webzugriff",
+                "dataType": "String",
+                "required": true
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Speicherdauer"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Die protokollierten Daten werden für die Dauer von 7 Tagen gespeichert und dann gelöscht. "
+                }
+              ]
+            },
+            "type": "FIXEDDURATION",
+            "fixedDate": {
+              "value": "7",
+              "type": "day"
+            }
+          },
+          "privacyModelList": {
+            "privacyModel": []
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Zugriffssicherheit"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Wegen aufgetretener sicherheitsrelevanter Ereignisse werden bei jedem Zugriff auf den Web-Server der Universität Passau wesentliche Zugriffsdaten gespeichert. Die gespeicherten Daten werden ausschließlich zu Zwecken der Identifikation und Nachverfolgung unzulässiger Zugriffsversuche und Zugriffe auf den Web-Server verwendet."
+              }
+            ]
+          },
+          "name": "security",
+          "required": true,
+          "optOut": false
+        }
+      ]
+    }
+  }
+}

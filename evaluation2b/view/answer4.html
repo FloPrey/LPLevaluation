@@ -1,0 +1,23 @@
+<div class="page-header" id="top"><h2>{{questionHeader}}</h2></div>
+<form class="form-horizontal" name="questionForm">
+    <div class="form-group" ng-repeat="question in task4.questions">
+        <h4 ng-show="question.header != ''">{{question.header}}</h4>
+        <label>{{question.id}}. {{useranswers[question.id].question = question.question}}</label>
+        <div class="radio" ng-repeat="answer in question.answers" ng-show="question.type == 'radio'">
+            <label>
+                <input type="radio" ng-model="useranswers[question.id].answer" ng-value="answer" name="{{question.id}}"> {{answer}}
+            </label>
+        </div>
+        <div class="checkbox" ng-repeat="answer in question.answers" ng-show="question.type == 'checkbox'" >
+            <label>
+                <input type="checkbox" ng-model="useranswers[question.id].answer[$index]" ng-true-value="'{{answer}}'" ng-required="useranswers[question.id].answer == undefined" name="answer{{$index}}"> {{answer}}
+            </label>
+        </div>
+        <div ng-show="question.type == 'text'">
+            <input type="text" ng-model="useranswers[question.id]" placeholder="{{question.placeholder}}" class="form-control" />
+        </div>
+    </div>
+    <button type="button" ng-click="save()" class="btn btn-success pull-right" >
+        Weiter
+    </button>
+</form>

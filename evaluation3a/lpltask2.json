@@ -1,0 +1,1554 @@
+{
+  "layeredPrivacyPolicy": {
+    "version": "0.4",
+    "name": "Create Policy",
+    "lang": "de",
+    "headerList": {
+      "label": [
+        {
+          "lang": "de",
+          "value": "Webshop Datenschutzerklärung"
+        }
+      ]
+    },
+    "iconList": {
+      "icon": [
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Werbung"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Daten werden zu Werbezwecken verwendet"
+              }
+            ]
+          },
+          "name": "lplicon-advertisment"
+        },
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Marktforschung"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Daten werden für Marktforschung verwendet."
+              }
+            ]
+          },
+          "name": "lplicon-research"
+        },
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Newsletter"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Daten werden für Newsletterversand verwendet."
+              }
+            ]
+          },
+          "name": "lplicon-newsletter"
+        },
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Kaufabwicklung"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Daten werden für die Verkaufsabwicklung verwendet."
+              }
+            ]
+          },
+          "name": "lplicon-shopping-cart"
+        },
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Benutzerprofil"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Daten werden zur Erstellung eines Benutzerprofils verwendet."
+              }
+            ]
+          },
+          "name": "lplicon-profil"
+        },
+        {
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Kontaktaufnahme"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Bei Fragen zu Ihrer Bestellung oder bei Gewinnbenachrichtigungen werden Sie von uns kontaktiert."
+              }
+            ]
+          },
+          "name": "lplicon-contact"
+        }
+      ]
+    },
+    "privacyPolicyUri": "floprey.at",
+    "dataSource": {},
+    "purposeList": {
+      "purpose": [
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Webshop"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Unser Europaweit verfügbarer Webshop"
+                    }
+                  ]
+                },
+                "name": "store",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "COMPANY"
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "E-Mail"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Ihre E-Mail Adresse"
+                    }
+                  ]
+                },
+                "name": "email",
+                "dataGroup": "Kundenkonto",
+                "dataType": "TEXT",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Passwort"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Ihr Passwort"
+                    }
+                  ]
+                },
+                "name": "passwort",
+                "dataGroup": "Kundenkonto",
+                "dataType": "TEXT",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Vorname"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Ihr Vorname"
+                    }
+                  ]
+                },
+                "name": "vorname",
+                "dataGroup": "Kundenkonto",
+                "dataType": "TEXT",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Nachname"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Ihr Nachname"
+                    }
+                  ]
+                },
+                "name": "nachname",
+                "dataGroup": "Kundenkonto",
+                "dataType": "TEXT",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Geschlecht"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Ihr Geschlecht"
+                    }
+                  ]
+                },
+                "name": "geschlecht",
+                "dataGroup": "Kundenkonto",
+                "dataType": "VALUE_SET",
+                "required": true
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Kein Löschpflicht"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Daten werden nur auf Anfrage gelöscht."
+                }
+              ]
+            },
+            "type": "INDIFINITE"
+          },
+          "privacyModelList": {
+            "privacyModel": []
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Kundenkonto"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Wir richten für jeden Kunden, der sich bei uns über die „jetzt registrieren“-Funktion registriert, ein Kundenkonto ein, d.h. einen passwortgeschützten direkten Zugang zu seinen bei uns gespeicherten  Bestandsdaten. Hier können Sie unter anderem Daten über Ihre abgeschlossenen, offenen und kürzlich versandten Bestellungen einsehen oder ihre persönlichen Daten und den Newsletter verwalten."
+              }
+            ]
+          },
+          "name": "Kundenkonto",
+          "required": true,
+          "optOut": false
+        },
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Webshop"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Unser Webshop erhält die Daten für die interne Kaufabwicklung"
+                    }
+                  ]
+                },
+                "name": "webshop",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "COMPANY"
+              },
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Transporteur"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Für die Zustellung werden Adressdaten an den Transporteur weitergegeben."
+                    }
+                  ]
+                },
+                "name": "transporteur",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "COMPANY"
+              },
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Logistiker"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Adressdaten werden an den Logistiker für die Zustellung weitergegeben. "
+                    }
+                  ]
+                },
+                "name": "logistiker",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "COMPANY"
+              },
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Banken"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Für die Zahlungsabwicklung werden Daten an die dafür zuständige Bank weitergeleitet."
+                    }
+                  ]
+                },
+                "name": "bank",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "COMPANY"
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Benutzeradresse"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Für den Versand und die Rechnungserstellung werden ihre Adressdaten verwendet."
+                    }
+                  ]
+                },
+                "name": "adresse",
+                "dataGroup": "Versand",
+                "dataType": "TEXT",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Kundenkonto"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Zur Kaufabwicklung wird das von Ihnen verwendete Benutzerkonto verwendet."
+                    }
+                  ]
+                },
+                "name": "kundenkonto",
+                "dataGroup": "Einkauf",
+                "dataType": "OTHER",
+                "required": true
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Keine Löschpflicht"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Daten werden nur auf Anfrage gelöscht"
+                }
+              ]
+            },
+            "type": "INDIFINITE"
+          },
+          "privacyModelList": {
+            "privacyModel": []
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Kaufabwicklung"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Wir erheben, speichern und verarbeiten Ihre Daten für die gesamte Abwicklung Ihres Kaufs, einschließlich eventuell späterer Gewährleistungen, für unsere Servicedienste die technische Administration, eigene Marketingzwecke sowie zur Verhinderung von Straftaten und Betrug."
+              }
+            ]
+          },
+          "name": "kaufabwicklung",
+          "required": true,
+          "optOut": false
+        },
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Webshop"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Daten werden intern im Webshop verwendet"
+                    }
+                  ]
+                },
+                "name": "webshop",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "COMPANY"
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Empfangs- und Lesebestätigung"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Empfangs- und Lesebestätigungen von E-Mails"
+                    }
+                  ]
+                },
+                "name": "mailbesttigung",
+                "dataGroup": "Werbung",
+                "dataType": "BOOLEAN",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Endgerätinformationen"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Informationen über das von Ihnen genutzte Endgerät, Ihre Verbindung zum Internet, Betriebssystem und Plattform"
+                    }
+                  ]
+                },
+                "name": "endgeraet",
+                "dataGroup": "Werbung",
+                "dataType": "VALUE_SET",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Besuchsinformationen"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Datum und Zeit des Besuchs der Homepage, oder Produkte die Sie angeschaut haben sowie Informationen, die wir von Ihnen erhalten (einschließlich automatisiert übermittelte oder generierte Informationen) haben."
+                    }
+                  ]
+                },
+                "name": "besuchsinformation",
+                "dataGroup": "Werbung",
+                "dataType": "VALUE_SET",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Bestellhistorie"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Bestellhistorie Ihrer Produkte"
+                    }
+                  ]
+                },
+                "name": "bestellhistorie",
+                "dataGroup": "Werbung",
+                "dataType": "VALUE_SET",
+                "required": true
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Keine Löschpflicht"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Daten werden nur auf Anfrage gelöscht."
+                }
+              ]
+            },
+            "type": "INDIFINITE"
+          },
+          "privacyModelList": {
+            "privacyModel": []
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Werbezwecken"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Um Ihr Einkaufserlebnis permanent zu verbessern und für Sie kundenfreundlich und individuell zu gestalten; um mit Ihnen über Ihre Bestellungen, sowie über bestimmte Produkte oder Marketingaktionen zu kommunizieren; und um Ihnen Produkte oder Dienstleistungen zu empfehlen, die Sie interessieren könnten."
+              }
+            ]
+          },
+          "name": "werbezweck",
+          "required": true,
+          "optOut": true
+        },
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Webshop"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Daten werden nur Intern verwendet"
+                    }
+                  ]
+                },
+                "name": "webshop",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "COMPANY"
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "E-Mail"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Sollten Sie bei uns einen Kauf getätigt haben, so erhalten Sie regelmäßig Produktempfehlungen von uns per Mail. Diese Produktempfehlungen erhalten Sie von uns unabhängig davon, ob Sie einen Newsletter abonniert haben."
+                    }
+                  ]
+                },
+                "name": "email",
+                "dataGroup": "Newsletter",
+                "dataType": "TEXT",
+                "required": true
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Keine Löschpflicht"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Daten werden nur auf Anfrage gelöscht."
+                }
+              ]
+            },
+            "type": "INDIFINITE"
+          },
+          "privacyModelList": {
+            "privacyModel": []
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Newsletter"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Wir wollen Ihnen auf diese Weise Informationen über Produkte aus unserem Angebot zukommen lassen, die Sie auf Grundlage Ihrer letzten Einkäufe bei uns interessieren könnten."
+              }
+            ]
+          },
+          "name": "newsletter",
+          "required": true,
+          "optOut": true
+        },
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Webshop"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Daten werden vom Webshop erfasst."
+                    }
+                  ]
+                },
+                "name": "webshop",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "COMPANY"
+              },
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Drittseiten"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Werbung wird auf Drittseiten geschaltet."
+                    }
+                  ]
+                },
+                "name": "drittseiten",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "OTHER"
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert"
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Produkte"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Produkte, die Sie entweder bereits auf unserer Seite angesehen haben oder Produkte, welche den von Ihnen angesehenen Produkten ähnlich sind (sog. Retargeting)."
+                    }
+                  ]
+                },
+                "name": "produkte",
+                "dataGroup": "Bannerwerbung",
+                "dataType": "VALUE_SET",
+                "required": true
+              },
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Kundenkonto Pseudonym"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Im Rahmen der Bannerwerbung arbeiten wir lediglich mit pseudonymen Daten; Klartext-Informationen zu Ihrer Person (z.B. Ihr Name oder Ihre Emailadresse) werden nicht in den Cookies abgelegt."
+                    }
+                  ]
+                },
+                "name": "pseudonym",
+                "dataGroup": "Bannerwerbung",
+                "dataType": "OTHER",
+                "required": true
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Keine Löschpflicht"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Daten werden nur auf Anfrage gelöscht."
+                }
+              ]
+            },
+            "type": "INDIFINITE"
+          },
+          "privacyModelList": {
+            "privacyModel": [
+              {
+                "attributeList": {
+                  "privacyModelAttribute": [
+                    {
+                      "key": "K_ANONYMITY_K",
+                      "value": "3"
+                    },
+                    {
+                      "key": "K_ANONYMITY_MAX_OUTLIERS",
+                      "value": "0.02"
+                    }
+                  ]
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "K-Anonymität"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Daten werden einem Pseudonym zugeordnet."
+                    }
+                  ]
+                },
+                "type": "K_ANONYMITY"
+              }
+            ]
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Bannerwerbung"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Wir nutzen die während Ihres Besuches gesammelten Daten auch, um Ihnen sog. Bannerwerbung anzuzeigen. Hierbei handelt es sich um Werbeanzeigen, welche wir auf Drittseiten schalten."
+              }
+            ]
+          },
+          "name": "bannerwerbung",
+          "required": true,
+          "optOut": true
+        },
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Interne Nutzung"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Daten werden nicht weitergegeben"
+                    }
+                  ]
+                },
+                "name": "intern",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "COMPANY"
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Umfragedaten"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Umfragen finden anonym statt und es werden keine anderen Daten wie die Antworten gespeichert."
+                    }
+                  ]
+                },
+                "name": "umfragedaten",
+                "dataGroup": "Forschung",
+                "dataType": "VALUE_SET",
+                "required": true
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Keine Löschpflicht"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Daten werden nur auf Anfrage gelöscht."
+                }
+              ]
+            },
+            "type": "INDIFINITE"
+          },
+          "privacyModelList": {
+            "privacyModel": []
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Forschung"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Wir verwenden Ihre Daten darüber hinaus zur Markt- und Meinungsforschung. Die im Rahmen von Markt- und Meinungsforschung erhobenen Daten, nutzen wir nicht für werbliche Zwecke."
+              }
+            ]
+          },
+          "name": "forschung",
+          "required": true,
+          "optOut": true
+        },
+        {
+          "dataRecipientList": {
+            "dataRecipient": [
+              {
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Intern"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Daten werden nur Intern verarbeitet"
+                    }
+                  ]
+                },
+                "name": "intern",
+                "type": "DATA_RECEIVER",
+                "authorityChain": "",
+                "classification": "COMPANY"
+              }
+            ]
+          },
+          "dataList": {
+            "data": [
+              {
+                "anonymizationMethod": {
+                  "headerList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Keine"
+                      }
+                    ]
+                  },
+                  "descriptionList": {
+                    "label": [
+                      {
+                        "lang": "de",
+                        "value": "Daten werden nicht anonymisiert."
+                      }
+                    ]
+                  },
+                  "attributeList": {
+                    "anonymizationMethodAttribute": []
+                  },
+                  "hierarchy": {
+                    "HierarchyEntryList": {
+                      "HierarchyEntry": []
+                    }
+                  },
+                  "name": "DEFAULT"
+                },
+                "headerList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "E-Mail"
+                    }
+                  ]
+                },
+                "descriptionList": {
+                  "label": [
+                    {
+                      "lang": "de",
+                      "value": "Wird für die Gewinnbenachrichtigungverwendet."
+                    }
+                  ]
+                },
+                "name": "email",
+                "dataGroup": "Gewinnspiel",
+                "dataType": "TEXT",
+                "required": true
+              }
+            ]
+          },
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Keine Löschpflicht"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Daten werden nur auf Anfrage gelöscht."
+                }
+              ]
+            },
+            "type": "INDIFINITE"
+          },
+          "privacyModelList": {
+            "privacyModel": []
+          },
+          "headerList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Gewinnspiele"
+              }
+            ]
+          },
+          "descriptionList": {
+            "label": [
+              {
+                "lang": "de",
+                "value": "Bei Gewinnspielen verwenden wir Ihre Daten zum Zweck der Gewinnbenachrichtigung und der Werbung für unsere Angebote."
+              }
+            ]
+          },
+          "name": "gewinnspiele",
+          "required": true,
+          "optOut": true
+        }
+      ]
+    }
+  }
+}
