@@ -278,7 +278,7 @@
                     "label": [
                       {
                         "lang": "de",
-                        "value": "Daten werden nicht anonymsiert"
+                        "value": "Daten werden nicht anonymisiert"
                       }
                     ]
                   },
@@ -571,7 +571,7 @@
                     "label": [
                       {
                         "lang": "de",
-                        "value": "Daten werden nicht anonymsiert"
+                        "value": "Daten werden nicht anonymisiert"
                       }
                     ]
                   },
@@ -608,7 +608,25 @@
               }
             ]
           },
-          "retention": {},
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Nach Zweckerfüllung"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Daten werden nach Erfüllung des Zwecks oder spätestens nach 18 Monaten gelöscht"
+                }
+              ]
+            },
+            "type": "AFTERPURPOSE"
+          },
           "privacyModelList": {
             "privacyModel": []
           },

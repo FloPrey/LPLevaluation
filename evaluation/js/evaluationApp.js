@@ -21,10 +21,6 @@ evalApp.config(function ($routeProvider) {
         });
 });
 
-evalApp.controller('appCtrl', function($scope, $http) {
-
-});
-
 evalApp.controller('personalCtrl', function ($scope, $location, $anchorScroll) {
     $scope.personal = {};
     $scope.jobs = [{name: 'Schüler', val: 'schueler'},
@@ -33,7 +29,7 @@ evalApp.controller('personalCtrl', function ($scope, $location, $anchorScroll) {
         {name: 'Selbstständig', val: 'selbstständig'},
         {name: 'Rentner/in', val:'rentner'},
         {name: 'Hausfrau/Hausmann', val:'hausfrau'},
-        {name: 'Freuiberufler/in', val:'freiberufler'},
+        {name: 'Freiberufler/in', val:'freiberufler'},
         {name: 'Beamte/r', val:'beamte'},
         {name: 'Nicht Erwerbstätig', val:'nicht-erwerbstätig'},
         {name: 'Auszubildende/r', val:'auszubildend'},

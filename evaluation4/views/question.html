@@ -1,0 +1,38 @@
+<div class="page-header" id="top"><h2>{{questionHeader}}</h2></div>
+<form class="form-horizontal" name="questionForm">
+    <div class="alert alert-danger" ng-show="hasError">Einige Fragen wurden nicht beantwortet</div>
+    <div class="alert alert-{{alert}}" ng-show="finished">{{message}}</div>
+    <div class="form-group" ng-repeat="question in questions.questions">
+        <h4 ng-show="question.header != ''">{{question.header}}</h4>
+        <label>{{question.id}}. {{useranswers[question.id].question = question.question}}</label>
+        <div class="radio" ng-repeat="answer in question.answers" ng-show="question.type == 'radio'">
+            <label>
+                <input type="radio" ng-model="useranswers[question.id].answer" ng-value="answer.val" required="{{answer.required}}" name="{{question.id}}"> {{answer.title}}
+            </label>
+        </div>
+        <div class="checkbox" ng-repeat="answer in question.answers" ng-show="question.type == 'checkbox'" >
+            <label>
+                <input type="checkbox" ng-model="useranswers[question.id].answer[$index]" ng-true-value="'{{answer.val}}'" ng-required="useranswers[question.id].answer == undefined" name="answer{{$index}}"> {{answer.title}}
+            </label>
+        </div>
+        <div ng-show="question.type == 'text'">
+            <input type="text" ng-model="useranswers[question.id].answer" placeholder="{{question.placeholder}}" class="form-control" />
+        </div>
+        <div ng-show="question.type == 'icon'">
+            <div class="col-sm-3">
+                <span class="icon {{question.icon}}"></span>
+            </div>
+            <div class="col-sm-9 checkbox" ng-repeat="answer in question.answers">
+                <label>
+                    <input type="checkbox" ng-click="checkNoAnswer(answer.val, question.id)" ng-model="useranswers[question.id].answer[$index]" ng-true-value="'{{answer.val}}'" ng-required="useranswers[question.id].answer == undefined"  name="answer{{$index}}"> {{answer.title}}
+                </label>
+            </div>
+        </div>
+    </div>
+    <button type="button" ng-click="continue()" class="btn btn-success pull-right" ng-show="questions.next != undefined" >
+        Weiter
+    </button>
+    <button type="button" ng-click="saveData()" class="btn btn-success pull-right" ng-disabled="finished" ng-show="questions.next == undefined" >
+        Fragebogen abschließen
+    </button>
+</form>

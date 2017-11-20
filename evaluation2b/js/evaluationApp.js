@@ -40,8 +40,30 @@ evalApp.controller('appCtrl', function($scope, $http) {
 });
 
 evalApp.controller('personalCtrl', function ($scope, $location) {
+    if(localStorage.getItem('task1') != undefined) {
+        localStorage.removeItem('task1');
+    }
+    if(localStorage.getItem('task2') != undefined) {
+        localStorage.removeItem('task2');
+    }
+    if(localStorage.getItem('task3') != undefined) {
+        localStorage.removeItem('task3');
+    }
+    if(localStorage.getItem('task4') != undefined) {
+        localStorage.removeItem('task4');
+    }
     $scope.personal = {};
-    $scope.jobs = [{name: 'Schüler', val: 'schueler'},{name: 'Student', val: 'student'}, {name: 'Angestellter', val: 'angestellter'}, {name: 'Arbeiter', val: 'arbeiter'},{name: 'Pensionist', val:'pensionist'}];
+    $scope.jobs = [{name: 'Schüler', val: 'schueler'},
+        {name: 'Student/in', val: 'student'},
+        {name: 'Angestellte/r', val: 'angestellter'},
+        {name: 'Selbstständig', val: 'selbstständig'},
+        {name: 'Rentner/in', val:'rentner'},
+        {name: 'Hausfrau/Hausmann', val:'hausfrau'},
+        {name: 'Freiberufler/in', val:'freiberufler'},
+        {name: 'Beamte/r', val:'beamte'},
+        {name: 'Nicht Erwerbstätig', val:'nicht-erwerbstätig'},
+        {name: 'Auszubildende/r', val:'auszubildend'},
+        {name: 'Kein Angabe', val:'keine-angabe'}];
     $scope.personal.job = $scope.jobs[0];
     $scope.savePersonal = function() {
         localStorage.setItem('personal', JSON.stringify($scope.personal));
@@ -61,8 +83,11 @@ evalApp.controller('task1Ctrl', function ($scope, $location) {
     $scope.date = new Date();
     $scope.starttime = performance.now();
     $scope.saveTask = function() {
-        $scope.date = new Date();
         $scope.neededTime = (performance.now() - $scope.starttime) / 1000;
+        $scope.correctDate = new Date();
+        $scope.correctDate.setHours(0,0,0,0);
+        $scope.correctDate.setDate($scope.date.getDate() + 7);
+        $scope.task1.correctDate = $scope.correctDate;
         $scope.task1.neededTime = $scope.neededTime;
         localStorage.setItem('task1', JSON.stringify($scope.task1));
         $location.url('task2');
@@ -76,16 +101,24 @@ evalApp.controller('task2Ctrl', function ($scope, $location) {
     lpl.create("lplTemplate", {lplLoad: "ajax", lplRaw: "lpltask2.json", lplRes: "lplRes", triggerForm: true, lang: "de"});
     $scope.starttime = performance.now();
     $scope.saveTask = function() {
-        $scope.neededTime = (performance.now() - $scope.starttime) / 1000;
-        $scope.task2.neededTime = $scope.neededTime;
-        localStorage.setItem('task2', JSON.stringify($scope.task2));
-        $location.url('task3');
+        if ($scope.questionForm.$valid) {
+            $scope.neededTime = (performance.now() - $scope.starttime) / 1000;
+            $scope.task2.neededTime = $scope.neededTime;
+            localStorage.setItem('task2', JSON.stringify($scope.task2));
+            $location.url('task3');
+        } else {
+            $scope.hasError = true;
+            var id = $location.hash();
+            $location.hash('top');
+            $anchorScroll();
+            $location.hash(id);
+        }
     }
 });
 
 evalApp.controller('task3Ctrl', function ($scope, $location) {
     $scope.task3 = {counter: 1};
-    $scope.task3.question = "Im nächsten Schritt, informieren Sie sich bitte selbst wie und wozu ihre Daten verwendet werden dürfen/können.";
+    $scope.task3.question = "Im nächsten Schritt, informieren Sie sich bitte selbst wie und wozu ihre Daten verwendet werden dürfen/können.  Wenn Sie fertig sind, klicken Sie auf weiter. Im nächsten Schritt werden Ihnen dazu Fragen gestellt.";
     $scope.date = new Date();
     $scope.starttime = performance.now();
     var usedTime = 0;
@@ -107,6 +140,7 @@ evalApp.controller('task3Ctrl', function ($scope, $location) {
 evalApp.controller('answer3Ctrl', function ($scope, $location) {
     $scope.task3 = {};
     $scope.questionHeader = "Fragen zu Aufgabe 3";
+    $scope.useranswers = [];
     $scope.task3.questions = [
         {
             id: 1,
@@ -131,18 +165,27 @@ evalApp.controller('answer3Ctrl', function ($scope, $location) {
         usedTime = task3.neededTime;
     }
     $scope.save = function() {
-        $scope.date = new Date();
-        $scope.neededTime = (performance.now() - $scope.starttime) / 1000;
-        $scope.task3.answerTime = usedTime + $scope.neededTime;
-        $scope.task3.answers = $scope.useranswers;
-        localStorage.setItem('task3', JSON.stringify($scope.task3));
-        $location.url('task4');
+        if($scope.questionForm.$valid) {
+            $scope.date = new Date();
+            $scope.neededTime = (performance.now() - $scope.starttime) / 1000;
+            $scope.task3.neededTime = usedTime + $scope.neededTime;
+            $scope.task3.answers = $scope.useranswers;
+            localStorage.setItem('task3', JSON.stringify($scope.task3));
+            $location.url('task4');
+        } else {
+            $scope.hasError = true;
+            var id = $location.hash();
+            $location.hash('top');
+            $anchorScroll();
+            $location.hash(id);
+        }
     }
 });
 
 evalApp.controller('task4Ctrl', function ($scope, $location) {
     $scope.task4 = {counter: 1};
-    $scope.task4.question = "Im nächsten Schritt, informieren Sie sich bitte selbst wie und wozu ihre Daten verwendet werden dürfen/können.";
+    $scope.task4.question = "Im nächsten Schritt, informieren Sie sich bitte selbst wie und wozu ihre Daten verwendet werden dürfen/können.  Wenn Sie fertig sind, klicken Sie auf weiter. Im nächsten Schritt werden Ihnen dazu Fragen gestellt.";
+    $scope.useranswers = [];
     $scope.date = new Date();
     $scope.starttime = performance.now();
     var usedTime = 0;
@@ -157,7 +200,6 @@ evalApp.controller('task4Ctrl', function ($scope, $location) {
         $scope.date = new Date();
         $scope.neededTime = (performance.now() - $scope.starttime) / 1000;
         $scope.task4.neededTime = usedTime + $scope.neededTime;
-        $scope.task4.answers = $scope.useranswers;
         localStorage.setItem('task4', JSON.stringify($scope.task4));
         $location.url('answertask4');
     }
@@ -166,10 +208,11 @@ evalApp.controller('task4Ctrl', function ($scope, $location) {
 evalApp.controller('answer4Ctrl', function ($scope, $location, $http) {
     $scope.task4 = {counter: 1};
     $scope.questionHeader = "Fragen zu Aufgabe 4";
+    $scope.useranswers = [];
     $scope.task4.questions = [
         {
             id: 1,
-            question: "Dürfen meine Daten zu Markforschungszwecke verwendet werden?",
+            question: "Dürfen meine Daten zu Marktforschungszwecke verwendet werden?",
             type: "radio",
             answers: ["Ja", "Nein", "Keine Angabe"]
         },
@@ -207,24 +250,40 @@ evalApp.controller('answer4Ctrl', function ($scope, $location, $http) {
         usedTime = task4.neededTime;
     }
     $scope.save = function() {
-        $scope.date = new Date();
-        $scope.neededTime = ($scope.date.getTime() - $scope.starttime) / 1000;
-        $scope.task4.answerTime = usedTime + $scope.neededTime;
-        localStorage.setItem('task4', JSON.stringify($scope.task4));
-        var task1 = localStorage.getItem('task1');
-        var task2 = localStorage.getItem('task2');
-        var task3 = localStorage.getItem('task3');
-        $scope.task4.selectedAnswers = $scope.useranswers;
-        $scope.fullAnswer = {task1: JSON.parse(task1), task2: JSON.parse(task2), task3: JSON.parse(task3), task4: $scope.task4};
-        $http({
-            method: 'POST', url: serverUrl, data: $scope.fullAnswer, withCredentials: true, headers: {
-                'Content-type': 'application/json; charset=utf-8'
-            }
-        }).then(function (response) {
-            if (response.data.success) {
-                $location.url('finish');
-            }
-        });
+        if($scope.questionForm.$valid) {
+            $scope.date = new Date();
+            $scope.neededTime = (performance.now() - $scope.starttime) / 1000;
+            $scope.task4.neededTime = usedTime + $scope.neededTime;
+            $scope.task4.answers = $scope.useranswers;
+            localStorage.setItem('task4', JSON.stringify($scope.task4));
+            var personal = localStorage.getItem('personal');
+            var task1 = localStorage.getItem('task1');
+            var task2 = localStorage.getItem('task2');
+            var task3 = localStorage.getItem('task3');
+            $scope.task4.answers = $scope.useranswers;
+            $scope.fullAnswer = {
+                personal: JSON.parse(personal),
+                task1: JSON.parse(task1),
+                task2: JSON.parse(task2),
+                task3: JSON.parse(task3),
+                task4: $scope.task4
+            };
+            $http({
+                method: 'POST', url: serverUrl, data: $scope.fullAnswer, withCredentials: true, headers: {
+                    'Content-type': 'application/json; charset=utf-8'
+                }
+            }).then(function (response) {
+                if (response.data.success) {
+                    $location.url('finish');
+                }
+            });
+        } else {
+            $scope.hasError = true;
+            var id = $location.hash();
+            $location.hash('top');
+            $anchorScroll();
+            $location.hash(id);
+        }
     }
 });
 

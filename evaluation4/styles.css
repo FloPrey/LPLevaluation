@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "lpl-icons";
+  src:url("fonts/lpl-icons.eot");
+  src:url("fonts/lpl-icons.eot?#iefix") format("embedded-opentype"),
+    url("fonts/lpl-icons.woff") format("woff"),
+    url("fonts/lpl-icons.ttf") format("truetype"),
+    url("fonts/lpl-icons.svg#lpl-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "lpl-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="lplicon-"]:before,
+[class*=" lplicon-"]:before {
+  font-family: "lpl-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lplicon-advertisment:before {
+  content: "\61";
+}
+.lplicon-secure:before {
+  content: "\65";
+}
+.lplicon-newsletter:before {
+  content: "\66";
+}
+.lplicon-marketing:before {
+  content: "\67";
+}
+.lplicon-contact:before {
+  content: "\68";
+}
+.lplicon-education:before {
+  content: "\69";
+}
+.lplicon-research:before {
+  content: "\6a";
+}
+.lplicon-share:before {
+  content: "\6b";
+}
+.lplicon-share-b:before {
+  content: "\6c";
+}
+.lplicon-sell:before {
+  content: "\63";
+}
+.lplicon-bookkeeping:before {
+  content: "\64";
+}
+.lplicon-shipping:before {
+  content: "\6d";
+}
+.lplicon-internal:before {
+  content: "\6e";
+}
+.lplicon-sell-b:before {
+  content: "\6f";
+}
+.lplicon-marketing-b:before {
+  content: "\62";
+}
+.lplicon-share-public:before {
+  content: "\70";
+}
+.lplicon-education-spy:before {
+  content: "\71";
+}
+.lplicon-share-friends:before {
+  content: "\72";
+}
+.lplicon-research-spy:before {
+  content: "\73";
+}
+.lplicon-share-spy:before {
+  content: "\74";
+}
+.lplicon-profil:before {
+  content: "\75";
+}
+.lplicon-marketing-spy:before {
+  content: "\76";
+}
+.lplicon-share-accept:before {
+  content: "\77";
+}

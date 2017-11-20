@@ -154,7 +154,7 @@
                   ]
                 },
                 "name": "store",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "COMPANY"
               }
@@ -472,7 +472,7 @@
                   ]
                 },
                 "name": "webshop",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "COMPANY"
               },
@@ -494,7 +494,7 @@
                   ]
                 },
                 "name": "transporteur",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "COMPANY"
               },
@@ -516,7 +516,7 @@
                   ]
                 },
                 "name": "logistiker",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "COMPANY"
               },
@@ -538,7 +538,7 @@
                   ]
                 },
                 "name": "bank",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "COMPANY"
               }
@@ -709,7 +709,7 @@
                   ]
                 },
                 "name": "webshop",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "COMPANY"
               }
@@ -978,7 +978,7 @@
                   ]
                 },
                 "name": "webshop",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "COMPANY"
               }
@@ -1100,7 +1100,7 @@
                   ]
                 },
                 "name": "webshop",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "COMPANY"
               },
@@ -1122,7 +1122,7 @@
                   ]
                 },
                 "name": "drittseiten",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "OTHER"
               }
@@ -1325,7 +1325,7 @@
                   ]
                 },
                 "name": "intern",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "COMPANY"
               }
@@ -1447,7 +1447,7 @@
                   ]
                 },
                 "name": "intern",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "COMPANY"
               }

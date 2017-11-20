@@ -89,8 +89,6 @@
 
             <h3>Widerspruch</h3>
 
-            <p><iframe src="https://tracking.bmbfcluster.de/index.php?module=CoreAdminHome&amp;action=optOut&amp;idSite=9&amp;language=de" width="95%" height="200" frameborder="no"></iframe></p>
-
             <h2>Daten für den Newsletter-Versand</h2>
 
             <p>Wenn Sie sich auf einem der Newsletter-Verteiler des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> eintragen, werden Ihre E-Mail-Adresse sowie die von Ihnen gewählte(n) Newsletterliste(n) von uns auf einem Server gespeichert. Wir setzen diese Daten ausschließlich für den Versand der Newsletter ein. Zur Analyse der Systemleistung werden die Datensätze für statistische Auswertungen genutzt. Wir geben Ihre Daten nicht an Dritte weiter und nutzen sie auch nicht für sonstige eigene Zwecke. Durch das Anmeldesystem mit einer zusätzlichen Bestätigungsnachricht, die einen Link zur endgültigen Registrierung enthält (Double-opt-in) ist sichergestellt, dass der Newsletter von Ihnen explizit erwünscht ist.</p>
@@ -103,7 +101,7 @@
 
             <h2>Auskunftsrecht</h2>
 
-            <p>Sie haben jederzeit das Recht auf Auskunft über die bezüglich Ihrer Person gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Speicherung. Auskunft über die gespeicherten Daten gibt Ihnen die Internetredaktion des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr> (<a class="icon-mail" href="javascript:void(location.href='mailto:'+String.fromCharCode(105,110,102,111,114,109,97,116,105,111,110,64,98,109,98,102,46,98,117,110,100,46,100,101))">information@bmbf.bund.de</a>). Sie können sich mit Fragen und Beschwerden auch an die <a class="icon-link" href="/de/die-datenschutzbeauftragte-des-bmbf-197.html">Datenschutzbeauftragte des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr></a> wenden.</p>
+            <p>Sie haben jederzeit das Recht auf Auskunft über die bezüglich Ihrer Person gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Speicherung. Auskunft über die gespeicherten Daten gibt Ihnen die Internetredaktion des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr>. Sie können sich mit Fragen und Beschwerden auch an die Datenschutzbeauftragte des <abbr title="Bundesministerium für Bildung und Forschung">BMBF</abbr></a> wenden.</p>
 
             <h2>Prüfen Sie Ihre Daten</h2>
 
@@ -115,28 +113,29 @@
         </div>
     </div>
     <br /><br />
-    <div class="row">
+    <form name="questionForm" class="row" id="top">
+        <div class="alert alert-danger" ng-show="hasError">Einige Fragen wurden nicht beantwortet</div>
         <div class="form-inline">
             <label class="col-sm-2">Antwort:</label>
             <div class="col-sm-10">
                 <label class="checkbox-inline">
-                    <input type="checkbox" value="true" ng-model="task2.bmbf" > Bildungsministerium f. Bildung & Forschung
+                    <input type="checkbox" value="true" ng-required="task2 == undefined" ng-model="task2.bmbf" > Bildungsministerium f. Bildung & Forschung
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" value="true" ng-model="task2.forschungsinstitute" > Forschungsinstitute
+                    <input type="checkbox" value="true" ng-required="task2 == undefined" ng-model="task2.forschungsinstitute" > Forschungsinstitute
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" value="true" ng-model="task2.versandfirmen" > Versandfirmen
+                    <input type="checkbox" value="true" ng-required="task2 == undefined" ng-model="task2.versandfirmen" > Versandfirmen
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" value="true" ng-model="task2.behoerden" > Behörden und Einrichtungen
+                    <input type="checkbox" value="true" ng-required="task2 == undefined" ng-model="task2.behoerden" > Behörden und Einrichtungen
                 </label>
                 <label class="checkbox-inline">
-                    <input type="checkbox" value="true" ng-model="task2.partner" > Partnerkonzerne
+                    <input type="checkbox" value="true" ng-required="task2 == undefined" ng-model="task2.partner" > Partnerkonzerne
                 </label>
             </div>
         </div>
-    </div>
+    </form>
     <a class="btn btn-success pull-right" ng-click="saveTask()">Weiter</a>
     <br />
 </div>

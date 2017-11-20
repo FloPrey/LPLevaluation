@@ -1,0 +1,479 @@
+{
+  "questions": [
+
+    {
+      "id": 1,
+      "question": "Welchen Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-share",
+      "header": "Datenschutzerklärungen bestehen meist aus sehr viel Text. Da aber Bilder meist einprägsamer sind, arbeiten wir daran, die Zwecke der Datenerhebung, durch Icons zu repräsentieren.",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Teilen auf Sozialen Medien",
+          "val": "Teilen auf Sozialen Medien"
+        },
+        {
+          "title": "Aufbau eines Datennetzwerks",
+          "val": "Aufbau eines Datennetzwerks"
+        },
+        {
+          "title": "Datenweitergabe an Dritte",
+          "val": "Datenweitergabe an Dritte"
+        },
+        {
+          "title": "Erstellen von Datenverbindungen",
+          "val": "Erstellen von Datenverbindungen"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Welchen Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-sell",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Verkauf auf Sozialen Medien",
+          "val": "Verkauf auf Sozialen Medien"
+        },
+        {
+          "title": "Datenverkauf an Dritte",
+          "val": "Datenverkauf an Dritte"
+        },
+        {
+          "title": "Aufbereiten des Geldflusses",
+          "val": "Aufbereiten des Geldflusses"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Welchen Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-marketing",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Verwendung der Daten zu Marketingzwecken",
+          "val": "Verwendung der Daten zu Marketingzwecken"
+        },
+        {
+          "title": "Daten zur Verwendung der Aktienanalyse",
+          "val": "Daten zur Verwendung der Aktienanalyse"
+        },
+        {
+          "title": "Erstellung von Datenstatistiken",
+          "val": "Erstellung von Datenstatistiken"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Welchen Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-advertisment",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Werbung",
+          "val": "Werbung"
+        },
+        {
+          "title": "Weitergabe der Daten an mehrere",
+          "val": "Weitergabe der Daten an mehrere"
+        },
+        {
+          "title": "Verwendung für Politische Zwecke",
+          "val": "Verwendung für Politische Zwecke"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Welchen Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-secure",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten zur Verwedung der Verschlüsselung",
+          "val": "Daten zur Verwendung der Verschlüsselung"
+        },
+        {
+          "title": "Daten für die Erhöhung der Sicherheit des Benuterkontos",
+          "val": "Daten für die Erhöhung der Sicherheit des Benutzerkontos"
+        },
+        {
+          "title": "Daten werden für die Verschlüsselung verwendet",
+          "val": "Daten werden für die Verschlüsselung verwendet"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-newsletter",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden per Brief versand",
+          "val": "Daten werden per Brief versand"
+        },
+        {
+          "title": "Daten für Briefversand",
+          "val": "Daten für Briefversand"
+        },
+        {
+          "title": "Daten für E-Mail Newsletter Versand",
+          "val": "Daten für E-Mail Newsletter Versand"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-contact",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden zur Kontaktaufnahme verwendet",
+          "val": "Daten werden zur Kontaktaufnahme verwendet"
+        },
+        {
+          "title": "Datenversand, bitte um Rückruf",
+          "val": "Datenversand, bitte um Rückruf"
+        },
+        {
+          "title": "Daten werden für Telefonbefragungen verwendet",
+          "val": "Daten werden für Telefonbefragungen verwendet"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-education",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Datenweitergabe für professionelle Zwecke",
+          "val": "Datenweitergabe für professionelle Zwecke"
+        },
+        {
+          "title": "Schwierige Datenverarbeitung",
+          "val": "Schwierige Datenverarbeitung"
+        },
+        {
+          "title": "Daten werden für schulische / Ausbildungszwecke verwendet",
+          "val": "Daten werden für schulische / Ausbildungszwecke verwendet"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-research",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Weitergabe geheimer Daten",
+          "val": "Weitergabe geheimer Daten"
+        },
+        {
+          "title": "Weitergabe biologischer Daten",
+          "val": "Weitergabe boilogischer Daten"
+        },
+        {
+          "title": "Daten werden für Forschungszwecke verwendet",
+          "val": "Daten werden für Forschungszwecke verwendet"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-bookkeeping",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden zum Zwecke der Buchhaltung / Rechnungserstellung verwendet",
+          "val": "Daten werden zum Zwecke der Buchhaltung / Rechnungserstellung verwendet"
+        },
+        {
+          "title": "Datenweitergabe nur an Berechtigte",
+          "val": "Datenweitergabe nur an Berechtigte"
+        },
+        {
+          "title": "Daten werden zur Veröffentlichung verwendet",
+          "val": "Daten werden zur Veröffentlichung verwendet"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-shipping",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden zu Datenpaketen zusammengefasst",
+          "val": "Daten werden zu Datenpaketen zusammengefasst"
+        },
+        {
+          "title": "Daten werden für den Versand verwendet",
+          "val": "Daten werden für den Versand verwendet"
+        },
+        {
+          "title": "Daten werden komprimiert gespeichert",
+          "val": "Daten werden komprimiert gespeichert"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-internal",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden verändert bei der Speicherung",
+          "val": "Daten werden verändert bei der Speicherung"
+        },
+        {
+          "title": "Daten werden für mechanische Zwecke verwendet",
+          "val": "Daten werden für mechanische Zwecke verwendet"
+        },
+        {
+          "title": "Daten werden für interne Verbesserung verwendet",
+          "val": "Daten werden für die interne Verbesserung verwendet"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-profil",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden nur für mich verwendet",
+          "val": "Daten werden nur für mich verwändet"
+        },
+        {
+          "title": "Daten werden zur Erstellung eines Benutzerporifls verwendet",
+          "val": "Daten werden zur Erstellung eines Benutzerporifls verwendet"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-share-friends",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden nur an meine Freunde weitergegeben",
+          "val": "Daten werden nur an meine Freunde weitergegeben"
+        },
+        {
+          "title": "Daten zur Erstellungen eines Benutzerfreundeskreises",
+          "val": "Daten zur Erstellung eines Benutzerfreundeskreises"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-share-public",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten sind öffentlich zugänglich",
+          "val": "Daten sind öffentlich zugänglich"
+        },
+        {
+          "title": "Daten werden zu ökonimischen Zwecken verwendet",
+          "val": "Daten werden zu ökonimischen Zwecken verwendet"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-share-accept",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Daten werden an mehrere Personen weitergegeben",
+          "val": "Daten werden an mehrere Personen weitergegeben"
+        },
+        {
+          "title": "Daten werden an aktzeptierte Personen weitergegeben",
+          "val": "Daten werden an aktzeptierte Personen weitergegeben"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-research-spy",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Weitergabe geheimer anonymer Daten",
+          "val": "Weitergabe geheimer anonymer Daten"
+        },
+        {
+          "title": "Weitergabe biologischer anonymer Daten",
+          "val": "Weitergabe boilogischer anonymer Daten"
+        },
+        {
+          "title": "Daten werden anonym für Forschungszwecke verwendet",
+          "val": "Daten werden anonym für Forschungszwecke verwendet"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Welche Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-education-spy",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Anonyme Datenweitergabe für professionelle Zwecke",
+          "val": "Anonyme Datenweitergabe für professionelle Zwecke"
+        },
+        {
+          "title": "Schwierige Datenverarbeitung durch Datenspione",
+          "val": "Schwierige Datenverarbeitung durch Datenspione"
+        },
+        {
+          "title": "Daten werden anonym für schulische / Ausbildungszwecke verwendet",
+          "val": "Daten werden anonym für schulische / Ausbildungszwecke verwendet"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Welchen Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
+      "type": "icon",
+      "icon": "lplicon-share-spy",
+      "placeholder": "",
+      "answers": [
+        {
+          "title": "Datenweitergabe an Datenspione",
+          "val": "Datenweitergabe an Datenspione"
+        },
+        {
+          "title": "Aufbau eines anonyme Datennetzwerks",
+          "val": "Aufbau eines anonymen Datennetzwerks"
+        },
+        {
+          "title": "Anonyme Datenweitergabe an Dritte",
+          "val": "Anonyme Datenweitergabe an Dritte"
+        },
+        {
+          "title": "Erstellen von Spionnetzwerk",
+          "val": "Erstellen von Spionnetzwerk"
+        },
+        {
+          "title": "Ich habe keine Ahnung",
+          "val": "Ich habe keine Ahnung"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Besondere Anmerkungen oder Anregungen",
+      "type": "text",
+      "placeholder": ""
+    }
+  ]
+}

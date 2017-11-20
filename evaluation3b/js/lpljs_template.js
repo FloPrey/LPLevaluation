@@ -30,22 +30,22 @@ var lpl = {
             DELETION: {"de": "Daten werden für die Anonymisierung gelöscht",
                 "en": "Data will be deleted for anonymization purpose",
                 "exampleList": ["Teststraße 1", ""]},
-            USEDDATA: {"de": "Welche Daten werden wie genutzt?", "en": "Which Data is used and how?"},
+            USEDDATA: {"de": "&#x2BC8; Welche Daten werden wie genutzt?", "en": "&#x2BC8; Which Data is used and how?"},
             ANONYMIZATION: {"de": "Anonymisierung", "en": "Anonymisation", DATAGROUP: {"de": "Datengruppe", "en": "Datagroup"},
                 METHOD: {"de": "Methode", "en": "Method"}},
-            RECEIVER:{"de": "Wer ist der Empfänger meiner Daten?", "en": "Who is the receiver of my data?"},
-            RETENTION: {"de": "Wie lange werden meine Daten gespeichert?", "en": "How long will my data be saved?"},
-            PRIVACY: {"de": "Wie sicher werden meine Daten anonymisiert?", "en": "How secure will my data be anonymised?",
+            RECEIVER:{"de": "&#x2BC8; Wer ist der Empfänger meiner Daten?", "en": "&#x2BC8; Who is the receiver of my data?"},
+            RETENTION: {"de": "&#x2BC8; Wie lange werden meine Daten gespeichert?", "en": "&#x2BC8; How long will my data be saved?"},
+            PRIVACY: {"de": "&#x2BC8; Wie sicher werden meine Daten anonymisiert?", "en": "&#x2BC8; How secure will my data be anonymised?",
                 PROBABILITY: {"de": "Wahrscheinlichkeit das ich in einem anonymisierten Datensatz identifiziert werden: ", "en": "With what probability I can be identified in an anonymised dataset: "}},
             NOPRIVACY: {"de": "Daten werden nicht anonymisiert.", "en": "Data won't be anonymized."},
-            ACCEPT: {"de": "aktzeptieren", "en": "accept"},
+            ACCEPT: {"de": "akzeptieren", "en": "accept"},
             REQUIRED: {"de": "erforderlich", "en": "required"},
             OVERVIEW: {"de": "Übersicht", "en": "Overview"},
-            PURPOSE: {"de": "Zwecke der Datenverarbeitung", "en": "Purpose of Data Porcessing"},
+            PURPOSE: {"de": "Zwecke", "en": "Purposes"},
             LINK: {"de": "Rechtliche Datenschutzerklärung", "en": "Legal Pirvacy Policy"},
             EXAMPLE: {"de": "Beispiel", "en": "Example"},
             DESCRIPTION: {"de": "Beschreibung", "en": "Description"},
-            SAVEBUTTON: {"de": "Speichern und aktzeptieren", "en": "save and accept"},
+            SAVEBUTTON: {"de": "Speichern und akzeptieren", "en": "save and accept"},
             HIERARCHY: {"de": "Daten Hierarchien", "en": "Dara Hierarchy"},
             FIXEDDATE: {"de": "Löschdatum", "en": "Retention date"}
         };
@@ -56,10 +56,10 @@ var lpl = {
         //HTML Templates for simple, slider and specific - can be selected via config
         lpl.template = '<div class="panel panel-default"><div class="panel-heading">'+
                 '<h3><span class="header"></span><small class="text-right pull-right"><a class="privacy-link" target="_blank"></a>'+
-                '</small></h3></div><div class="panel-body lpl-body"><div class="row"><div class="panel panel-default" style="margin: 0px 10px;">'+
-                '<div class="panel-heading"><h4 class="overview-header"></h4></div><div class="panel-body">'+
-                '<div class="row overview-icon" ></div></div></div></div><div class="row"><div class="col-sm-4">'+
-                '<div class="list-group" id="purposeList"><div class="list-group-item disabled purpose-header"></div>'+
+                '</small></h3></div><div class="panel-body lpl-body"><div class="row icon-overview">'+
+                '<div><h4 class="overview-header"></h4></div>'+
+                '<div class="row overview-icon" ></div></div><div class="row content"><div class="col-sm-4 sidebar">'+
+                '<div class="nav nav-pills nav-stacked" id="purposeList"><li class="page-header purpose-header"></li>'+
                 '</div></div><div class="col-sm-8" id="lplcontent"></div></div></div></div>';
 
         //Default Tabs that should be loaded - can be edited via config
@@ -313,7 +313,7 @@ var lpl = {
         //Set Link translation
         $('.privacy-link').html(lpl.translation.LINK[lang]);
         //Set text on save Button
-        if(lpl.translateSaveButton != undefined) {
+        if(lpl.translateSaveButton) {
             if(lpl.atag) {
                 $('.'+lpl.saveButton).html(lpl.translation.SAVEBUTTON[lang]);
             } else {
@@ -323,7 +323,7 @@ var lpl = {
         //Set Header for overview
         $('.overview-header').html(lpl.translation.OVERVIEW[lang]);
         //Set Header for purposes
-        $('.purpose-header').html(lpl.translation.PURPOSE[lang]);
+        $('.purpose-header').html('<h4>'+lpl.translation.PURPOSE[lang]+'</h4>');
         //Set general header
         lpl.setHeader(lpl.lplJSON.headerList, lang);
 
@@ -338,7 +338,7 @@ var lpl = {
         });
         //Set first purpose as active
         $('.elementInfo:first').removeClass('collapse');
-        $('.purposeList:first').addClass('active');
+        $('.listElPurpose:first').addClass('active');
     },
     /**
      * load translation and default language from user config if provided, as fallback use language from LPLJSON File
@@ -406,6 +406,7 @@ var lpl = {
     findTranslation : function (list, lang) {
         var retValue = "";
         if(list != undefined) {
+
             //Iterate over each element in List
             $.each(list.label, function (index, value) {
                 //If value is found, set variable and break iteration
@@ -432,9 +433,11 @@ var lpl = {
      * @param lang - Active language
      */
     addIcon : function(value, lang) {
-        $('.overview-icon').prepend('<div class="col-sm-3 text-center">' +
-            '<span title="'+lpl.findTranslation(value.descriptionList, lang) + '" class="' + value.name + ' lplicon'+value.name+'" style="font-size: 50px;"></span><br />'
-            + lpl.findTranslation(value.headerList, lang) + '</div>');
+        $('.overview-icon').prepend('<div class="col-sm-3 col-lg-3 media">' +
+            '<div class="media-left"><span title="'+lpl.findTranslation(value.descriptionList, lang)
+            + '" class="' + value.name + ' lplicon'+value.name+' media-object " style="font-size: 55px;"></span>' +
+            '</div><div class="media-body"><h4 class="media-heading">'
+            + lpl.findTranslation(value.headerList, lang) + '</h4></div></div>');
     },
     /**
      * Set header in HTML
@@ -467,17 +470,17 @@ var lpl = {
      */
     addPurpose : function(index, value, view, lang) {
         //Append Link to purpose list and make link toggle content
-        $('#purposeList .purpose-header:first-child').after('<a id="purposeLink' + index + '" onclick="lpl.toggleContent(this, \'elementInfo\', \'lpl' + index + '\', \'purposeList\')" class="list-group-item purposeList" title="'+lpl.findTranslation(value.headerList, lang) + '">' + lpl.findTranslation(value.headerList, lang) + '</a>');
+        $('#purposeList .purpose-header:first-child').after('<li class="listElPurpose"><a id="purposeLink' + index + '" onclick="lpl.toggleContent($(this).parent(\'li\'), \'elementInfo\', \'lpl' + index + '\', \'listElPurpose\')" class="purposeList" title="'+lpl.findTranslation(value.headerList, lang) + '">&#x2BC8; ' + lpl.findTranslation(value.headerList, lang) + '</a></li>');
         //Cut name if to long
         if($('#purposeLink'+index).html().length > 30) {
             $('#purposeLink' + index).html($('#purposeLink' + index).html().substr(0, 27)+'...');
         }
 
-        $('#lplcontent').append('<div class="row elementInfo collapse" id="lpl' + index + '"></div>');
+        $('#lplcontent').prepend('<div class="row elementInfo collapse" id="lpl' + index + '"></div>');
         if (value.required != true) {
             $('#purposeLink' + index).append('<div class="pull-right">' + lpl.translation.ACCEPT[lang] + ' <input type="checkbox" class="lpl-specific" name="lpl-specific" value="' + index + '" /></div>');
         } else {
-            $('#purposeLink' + index).append('<div class="pull-right">' + lpl.translation.REQUIRED[lang] + ' <input type="checkbox" disabled checked /></div>');
+            $('#purposeLink' + index).append('<div class="pull-right">' + lpl.translation.REQUIRED[lang] + '*</div>');
         }
 
         //Append discription and data list
@@ -517,7 +520,7 @@ var lpl = {
         $('#dataList' + index).append('<a onclick="lpl.toggleContent(this, \'dataMain' + index + '\', \'dataMain' + index + valueData.name + '\', \'dataList' + index + '\')" class="list-group-item dataList'+index+valueData.name+' dataList' + index + '">' + lpl.findTranslation(valueData.headerList, lang) + '</a>');
         $('#dataBody' + index).append('<div class="dataMain' + index + ' collapse" id="dataMain' + index + valueData.name + '"><div class="page-header"><h4>' + lpl.findTranslation(valueData.headerList, lang) + '</h4></div><p>' + lpl.findTranslation(valueData.descriptionList, lang) + '</p><div class="row" id="dataAnon' + index + valueData.name + '"></div></div>')
         if (view == undefined || view.anonymization == undefined || view.anonymization) {
-            $('#dataAnon' + index + valueData.name).append('<div class="col-sm-6 "><b>Anonymisierungsmethode:</b> ' + lpl.findTranslation(valueData.anonymizationMethod.headerList, lang) + '<br /><br /><b>' + lpl.translation.DESCRIPTION[lang] + '</b><br />' + lpl.findTranslation(valueData.anonymizationMethod.descriptionList, lang) + '</div>');
+            $('#dataAnon' + index + valueData.name).append('<div class="col-sm-6 "><b>Anonymisierungsmethode</b> ' + lpl.findTranslation(valueData.anonymizationMethod.headerList, lang) + '<br /><br /><b>' + lpl.translation.DESCRIPTION[lang] + '</b><br />' + lpl.findTranslation(valueData.anonymizationMethod.descriptionList, lang) + '</div>');
             $('#dataAnon' + index + valueData.name).append('<div class="col-sm-6" id="example' + index + valueData.name + '"><b>' + lpl.translation.HIERARCHY[lang] + '</b><br /></div>');
             //Iterate over list of configurated anoymisations to find the right one
             $.each(lpl.anonymizations, function (indexAnon, valueAnon) {
@@ -670,6 +673,7 @@ var lpl = {
                 });
             }
         }
+
         $('.loader').removeClass('loader');
         $('.load-item').removeClass('load-item');
     }

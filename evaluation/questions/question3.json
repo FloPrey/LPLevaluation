@@ -6,7 +6,7 @@
       "question": "Welchen Zweck der Datenverarbeitung würden Sie mit folgendem Icon verbinden? (Mehrere Antworten möglich)",
       "type": "icon",
       "icon": "lplicon-share",
-      "header": "Datenschutzerklärungen bestehen meist aus sehr viel Text. Da aber Bilder meist einprägsamer sind, arbeiten wir daran Zwecke, für welche die Daten erhoben werden, durch Icons zu repräsentieren.",
+      "header": "Datenschutzerklärungen bestehen meist aus sehr viel Text. Da aber Bilder meist einprägsamer sind, arbeiten wir daran, die Zwecke der Datenerhebung, durch Icons zu repräsentieren.",
       "placeholder": "",
       "answers": [
         {

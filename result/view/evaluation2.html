@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-sm-6 panel panel-default" ng-repeat="key in ['a', 'b']">
+        <div class="panel-heading">Gruppe {{key}}</div>
+        <div class="panel-body">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Allgemeine Ergebnisse
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-4"><b>Anzahl Probanden:</b> {{results[key].length}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div google-chart chart="sexChart[key]"></div>
+                </div>
+                <div class="col-sm-6">
+                    <div google-chart chart="internetChart[key]"></div>
+                </div>
+                <div class="col-sm-6">
+                    <div google-chart chart="jobsChart[key]"></div>
+                </div>
+                <div class="col-sm-6">
+                    <div google-chart chart="ageChart[key]"></div>
+                </div>
+            </div>
+
+            <div class="page-header"><h3>Fragen</h3></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12" ng-repeat="chart in taskChart">
+            <div google-chart chart="chart"></div>
+        </div>
+    </div>
+</div>

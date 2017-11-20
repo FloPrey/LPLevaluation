@@ -20,14 +20,15 @@
         <p class="bodytext">Wenn Sie uns eine E-Mail senden, so wird Ihre E-Mail-Adresse nur für die Korrespondenz mit Ihnen verwendet. Falls Sie eine Beantwortung per E-Mail nicht wünschen, müssen Sie ausdrücklich auf eine andere Art der Kommunikation verweisen.</p>
     </div>
     <br /><br />
-    <div class="row">
+    <form name="questionForm" class="row" id="top">
+        <div class="alert alert-danger" ng-show="hasError">Einige Fragen wurden nicht beantwortet</div>
         <div class="form-inline">
             <label class="col-sm-2">Antwort:</label>
             <div class="col-sm-10">
                 <input type="date" class="form-control" placeholder="Löschdatum" ng-click="popup.opened = true" uib-datepicker-popup="{{format}}" ng-model="task1.answer" is-open="popup.opened" datepicker-options="dateOptions" ng-required="true" close-text="Schließen" />
             </div>
         </div>
-    </div>
+    </form>
     <a class="btn btn-success pull-right" ng-click="saveTask()">Weiter</a>
     <br />
 </div>

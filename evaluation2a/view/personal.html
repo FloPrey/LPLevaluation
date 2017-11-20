@@ -6,22 +6,22 @@
         <label class="col-sm-3 control-label">Alter</label>
         <div class="col-sm-9">
             <label class="radio-inline">
-                <input type="radio" name="age" ng-model="personal.age" ng-value="10"> 10 - 18 Jahre
+                <input type="radio" name="age" ng-model="personal.age" value="10 - 18 Jahre"> 10 - 18 Jahre
             </label>
             <label class="radio-inline">
-                <input type="radio" name="age" ng-model="personal.age" ng-value="20"> 18 - 30 Jahre
+                <input type="radio" name="age" ng-model="personal.age" value="18 - 30 Jahre"> 18 - 30 Jahre
             </label>
             <label class="radio-inline">
-                <input type="radio" name="age" ng-model="personal.age" ng-value="30"> 30 - 40 Jahre
+                <input type="radio" name="age" ng-model="personal.age" value="30 - 40 Jahre"> 30 - 40 Jahre
             </label>
             <label class="radio-inline">
-                <input type="radio" name="age" ng-model="personal.age" ng-value="40"> 40 - 50 Jahre
+                <input type="radio" name="age" ng-model="personal.age" value="40 - 50 Jahre"> 40 - 50 Jahre
             </label>
             <label class="radio-inline">
-                <input type="radio" name="age" ng-model="personal.age" ng-value="50"> 50 - 60 Jahre
+                <input type="radio" name="age" ng-model="personal.age" value="50 - 60 Jahre"> 50 - 60 Jahre
             </label>
             <label class="radio-inline">
-                <input type="radio" name="age" ng-model="personal.age" ng-value="60"> 60 Jahre und älter
+                <input type="radio" name="age" ng-model="personal.age" value="60 Jahre und älter"> 60 Jahre und älter
             </label>
         </div>
     </div>
@@ -36,19 +36,38 @@
         <label class="col-sm-3 control-label">Wie oft verwenden Sie das Internet</label>
         <div class="col-sm-9">
             <label class="radio-inline">
-                <input type="radio" name="internet" ng-model="personal.internet" ng-value="daily"> Täglich
+                <input type="radio" name="internet" ng-model="personal.internet" value="täglich" required="required"> Täglich
             </label>
             <label class="radio-inline">
-                <input type="radio" name="internet" ng-model="personal.internet" ng-value="4"> 4-6 mal Wöchentlich
+                <input type="radio" name="internet" ng-model="personal.internet" value="4-6 mal" required="required"> 4-6 mal wöchentlich
             </label>
             <label class="radio-inline">
-                <input type="radio" name="internet" ng-model="personal.internet" ng-value="2"> 2-3 mal Wöchentlich
+                <input type="radio" name="internet" ng-model="personal.internet" value="2-3 mal" required="required"> 2-3 mal wöchentlich
             </label>
             <label class="radio-inline">
-                <input type="radio" name="internet" ng-model="personal.internet" ng-value="1"> 1 mal Wöchentlich
+                <input type="radio" name="internet" ng-model="personal.internet" value="1 mal" required="required"> 1 mal wöchentlich
             </label>
             <label class="radio-inline">
-                <input type="radio" name="internet" ng-model="personal.internet" ng-value="barely"> seltener
+                <input type="radio" name="internet" ng-model="personal.internet" value="seltener" required="required"> seltener
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="internet" ng-model="personal.internet" value="Keine Angabe" required="required"> Keine Angabe
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label">
+            Geschlecht:
+        </label>
+        <div class="col-sm-9">
+            <label class="radio-inline">
+                <input type="radio" name="gender" ng-model="personal.gender" value="weiblich" required="required"> Weiblich
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="gender" ng-model="personal.gender" value="männlich" required="required"> Männlich
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="gender" ng-model="personal.gender" value="keine Angabe" required="required"> Keine Angabe
             </label>
         </div>
     </div>
@@ -56,10 +75,11 @@
         <label class="col-sm-3">Aufgabe:</label>
         <div class="col-sm-9">
             Im nachfolgenden werden Datenschutzerklärungen angezeigt.
-            Manchmal werden diese in typischerweise langen Textabsätzen, manchmal durch eine neue Oberfläche präsentiert.
-            Zu Beginn wird eine wird nach einer Information gefragt welche anschließend auf der Seite gefunden werden soll.
-            Ist dies der Fall, soll die gefundene Information in ein Eingabefeld am Ende eingetragen werden und "Fertig"
-            entweder zur nächsten Aufgabe, oder zum Abschluss der Evaluation weiter gelangen. Bereit?
+            Manchmal werden diese in typischerweise langen Textabsätzen und manchmal durch eine neue Oberfläche präsentiert.
+            Zu Beginn wird nach einer Information gefragt, welche anschließend auf der Seite gefunden werden soll.
+            Ist dies der Fall, soll die gefundene Information in ein Eingabefeld am Ende eingetragen werden.
+            Mit dem Button "Weiter" kann man anschließend zur nächsten Aufgabe gelangen oder nach der letzten Frage mit dem
+            "Fertig" Button den Fragebogen abschließen.
         </div>
     </div>
     <button type="button" ng-click="savePersonal()" class="btn btn-success pull-right">

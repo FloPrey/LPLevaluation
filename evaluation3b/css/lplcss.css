@@ -1311,7 +1311,7 @@ fieldset[disabled] .btn-success.focus {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
     color: #ffffff;
-    background-color: #337ab7;
+    background-color: #122b40;
 }
 .nav-stacked > li {
     float: none;
@@ -1377,6 +1377,51 @@ fieldset[disabled] .btn-success.focus {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
 }
+.media:first-child {
+    margin-top: 0;
+}
+.media,
+.media-body {
+    overflow: hidden;
+    zoom: 1;
+}
+.media-body {
+    width: 10000px;
+}
+.media-object {
+    display: block;
+}
+.media-object.img-thumbnail {
+    max-width: none;
+}
+.media-right,
+.media > .pull-right {
+    padding-left: 10px;
+}
+.media-left,
+.media > .pull-left {
+    padding-right: 10px;
+}
+.media-left,
+.media-right,
+.media-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.media-middle {
+    vertical-align: middle;
+}
+.media-bottom {
+    vertical-align: bottom;
+}
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.media-list {
+    padding-left: 0;
+    list-style: none;
+}
 .list-group {
     margin-bottom: 20px;
     padding-left: 0;
@@ -1440,8 +1485,8 @@ button.list-group-item {
 .list-group-item.active:focus {
     z-index: 2;
     color: #ffffff;
-    background-color: #337ab7;
-    border-color: #337ab7;
+    background-color: #122b40;
+    border-color: #122b40;
 }
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
@@ -1778,6 +1823,66 @@ button.list-group-item-danger.active:focus {
 @-ms-viewport {
     width: device-width;
 }
+
+#purposeList {
+    margin-top: 8px;
+}
+
+#lplcontent {
+    border-left: 1px solid #f1f1f1;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f8f8f8;
+}
+#lplcontent .panel-heading {
+    background-color: #eeeeee;
+}
+
+.content {
+
+}
+
+.sidebar {
+    background-color: white;
+}
+
+.lpl-body {
+    padding-bottom: 0px !important;
+    padding-top: 0;
+
+}
+
+.overview-header {
+    text-align: center;
+    width: 100%;
+   font-variant: small-caps;
+    font-family: "Courier New";
+    font-stretch: extra-expanded;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.icon-overview {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 200;
+    color: white;
+    background-color: #122b40;
+    padding-bottom: 30px;
+}
+
+[class^="lplicon-"],
+[class*=" lplicon-"] {
+    background-color: white;
+    border-radius: 50px;
+    color: #122b40;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
 @charset "UTF-8";
 
 @font-face {

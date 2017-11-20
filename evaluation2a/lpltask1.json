@@ -58,7 +58,7 @@
                   ]
                 },
                 "name": "Unipassau",
-                "type": "Universität",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": ""
               }
             ]

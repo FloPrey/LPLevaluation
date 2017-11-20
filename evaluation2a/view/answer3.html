@@ -1,11 +1,12 @@
 <div class="page-header" id="top"><h2>{{questionHeader}}</h2></div>
+<div class="alert alert-danger" ng-show="hasError">Einige Fragen wurden nicht beantwortet</div>
 <form class="form-horizontal" name="questionForm">
     <div class="form-group" ng-repeat="question in task3.questions">
         <h4 ng-show="question.header != ''">{{question.header}}</h4>
         <label>{{question.id}}. {{useranswers[question.id].question = question.question}}</label>
         <div class="radio" ng-repeat="answer in question.answers" ng-show="question.type == 'radio'">
             <label>
-                <input type="radio" ng-model="useranswers[question.id].answer" ng-value="answer" name="{{question.id}}"> {{answer}}
+                <input type="radio" required="{{answer.required}}" ng-model="useranswers[question.id].answer" ng-value="answer" name="{{question.id}}"> {{answer}}
             </label>
         </div>
         <div class="checkbox" ng-repeat="answer in question.answers" ng-show="question.type == 'checkbox'" >

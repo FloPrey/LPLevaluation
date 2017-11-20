@@ -96,7 +96,7 @@
                   ]
                 },
                 "name": "baylat",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "LEGAL_ENTITY"
               }
@@ -608,7 +608,25 @@
               }
             ]
           },
-          "retention": {},
+          "retention": {
+            "headerList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Nach Zweckerfüllung"
+                }
+              ]
+            },
+            "descriptionList": {
+              "label": [
+                {
+                  "lang": "de",
+                  "value": "Daten werden nach Erfüllung des Zwecks oder spätestens nach 18 Monaten gelöscht"
+                }
+              ]
+            },
+            "type": "AFTERPURPOSE"
+          },
           "privacyModelList": {
             "privacyModel": []
           },
@@ -652,7 +670,7 @@
                   ]
                 },
                 "name": "dritte",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "OTHER"
               },
@@ -674,7 +692,7 @@
                   ]
                 },
                 "name": "ministerium",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "LEGAL_ENTITY"
               },
@@ -696,7 +714,7 @@
                   ]
                 },
                 "name": "internationaloffice",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "OTHER"
               }
@@ -866,7 +884,7 @@
                   ]
                 },
                 "name": "öffentlich",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "PUBLIC"
               }
@@ -1134,7 +1152,7 @@
                   ]
                 },
                 "name": "webseite",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "PUBLIC"
               }
@@ -1693,7 +1711,7 @@
                   ]
                 },
                 "name": "baylat",
-                "type": "DATA_RECEIVER",
+                "type": "DATA_RECIPIENT",
                 "authorityChain": "",
                 "classification": "OTHER"
               }

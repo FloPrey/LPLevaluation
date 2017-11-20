@@ -3,7 +3,7 @@
     "id": 7,
     "question": "Möchten Sie über die Verwendungszwecke der Daten informiert werden? (Eine Antwort möglich)",
     "type": "radio",
-    "header": "Laut dem Bundesministerium für Justiz und Verbraucherschutz sollte die Einwilligung einer Datenschutzerklärung für jeden Zweck der Datenverarbietung eingewilligt werden. Diese Einwilligung sollte durch eine eindeutige bestätigende Handlung erfolgen, mit der freiwillig, für den konkreten Fall, in informierter Weise und unmissverständlich bekundet wurd, dass die betroffene Person mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist, etwa in Form einer schriftlichen Erklärung, die auch elektronisch erfolgen kann.",
+    "header": "Laut dem Bundesministerium für Justiz und Verbraucherschutz sollte die Einwilligung einer Datenschutzerklärung für jeden Zweck der Datenverarbeitung eingewilligt werden. Diese Einwilligung sollte durch eine eindeutige bestätigende Handlung erfolgen, mit der freiwillig, für den konkreten Fall, in informierter Weise und unmissverständlich bekundet wird, dass die betroffene Person mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist, etwa in Form einer schriftlichen Erklärung, die auch elektronisch erfolgen kann.",
     "answers": [
       {
         "title": "Ja",
@@ -48,7 +48,7 @@
   },
   {
     "id": 9,
-    "question": "Wie würden Sie gern über die Zwecke informiert werden? (Mehrere Antworten möglich)",
+    "question": "Über welche Art von Zwecken würden Sie gern informiert werden? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
       {
@@ -150,7 +150,7 @@
   },
   {
     "id": 11,
-    "question": "Möchten Sie darüber informiert werden welche Daten (Name, Adressen, E-Mail...) erhoben werden? (Eine Antwort möglich)",
+    "question": "Möchten Sie darüber informiert werden, welche Daten (Name, Adressen, E-Mail...) von Ihnen gespeichert werden? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
@@ -212,7 +212,7 @@
   },
   {
     "id": 13,
-    "question": "Welche Daten würden Sie als sensibel einstuffen? (Mehrere Antworten möglich)",
+    "question": "Sie sind dabei sich für eine Fitnessapp anzumelden und diese würde gerne mehrere Daten von Ihnen verarbeiten. Welche Daten würden sie hierbei als sensibel einstufen? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
       {
@@ -271,6 +271,65 @@
   },
   {
     "id": 14,
+    "question": "Sie sind dabei sich online bei Ihrer Krankenkasse zu registrieren und diese würde gerne mehrere Daten von Ihnen verarbeiten. Welche Daten würden sie hierbei als sensibel einstufen? (Mehrere Antworten möglich)",
+    "type": "checkbox",
+    "answers": [
+      {
+        "title": "Name",
+        "val": "Name"
+      },
+      {
+        "title": "E-Mail Adresse",
+        "val": "E-Mail Adresse"
+      },
+      {
+        "title": "Telefonnummer",
+        "val": "Telefonnummer"
+      },
+      {
+        "title": "Adresse",
+        "val": "Adresse"
+      },
+      {
+        "title": "Geburtsdatum",
+        "val": "Gebrtsdatum"
+      },
+      {
+        "title": "Geschlecht",
+        "val": "Geschlecht"
+      },
+      {
+        "title": "Alter",
+        "val": "Alter"
+      },
+      {
+        "title": "IP-Adresse",
+        "val": "IP-Adresse"
+      },
+      {
+        "title": "MAC-Adresse",
+        "val": "MAC-Adresse"
+      },
+      {
+        "title": "Aktueller Standort",
+        "val": "Aktueller Standort"
+      },
+      {
+        "title": "Körpergröße",
+        "val": "Körpergröße"
+      },
+      {
+        "title": "Körpergewicht",
+        "val": "Körpergewicht"
+      },
+      {
+        "title": "Ich weiß nicht/Keine Angabe",
+        "val": "Ich weiß nicht/Keine Angabe"
+      }
+    ]
+  },
+  {
+    "id": 15,
     "question": "Würde es Sie interessieren ob Ihre Daten anonymisiert werden? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
@@ -297,7 +356,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "question": "Würden es Sie interessieren wie wahrscheinlich es ist, dass Sie in einem anonymisierten Datensatz identifiziert werden? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
@@ -324,8 +383,8 @@
     ]
   },
   {
-    "id": 16,
-    "question": "Welche Wahrscheinlicheit würden Sie als sicher einstufen, mit der Sie in einem anonymisierten Datensatz identifiziert werden können? (Eine Antwort möglich)",
+    "id": 17,
+    "question": "Wenn Daten anonymisiert werden, wird versucht dass sich Datensätze von verschiedenen Personen nicht unterscheiden. Wenn hier beispielsweise 3 gleiche Datensätze von 3 verschiedenen Personen vorliegen können Sie zu 33% identifiziert werden. Welche Wahrscheinlichkeit würden Sie nun in diesem Zusammenhang als sicher einstufen? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
@@ -371,7 +430,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 18,
     "question": "Würde es Sie interessieren bis wann Ihre Daten spätestens wieder gelöscht werden müssen? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
@@ -394,7 +453,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 19,
     "question": "Würde es Sie interessieren wer der Empfänger Ihrer Daten ist? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
@@ -417,8 +476,8 @@
     ]
   },
   {
-    "id": 19,
-    "question": "Wie würden Sie gerne die Empfänger Ihrer Daten angezeigt bekommen? (Eine Antwort möglich)",
+    "id": 20,
+    "question": "Welche Empfänger Ihrer Daten würden Sie gerne angezeigt bekommen? (Eine Antwort möglich)",
     "type": "radio",
     "answers": [
       {
@@ -445,7 +504,7 @@
   },
 
   {
-    "id": 20,
+    "id": 21,
     "question": "Welche Empfänger würden Sie als sensibel einstuffen? (Mehrere Antworten möglich)",
     "type": "checkbox",
     "answers": [
@@ -478,6 +537,11 @@
         "val": "Nur interne Verarbeitung"
       }
     ]
+  },
+  {
+    "id": 22,
+    "question": "Besondere Anmerkungen oder Anregungen",
+    "type": "text",
+    "placeholder": ""
   }
-],
-"next": "question3"}
+]}
