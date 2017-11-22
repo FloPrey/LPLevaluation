@@ -1,7 +1,7 @@
 /**
  * Created by flo on 25.04.17.
  */
-var evalApp = angular.module('lplResult', ['ngRoute', 'ui.bootstrap', 'googlechart']);
+var evalApp = angular.module('lplResult', ['ngRoute', 'ui.bootstrap', 'googlechart', 'ngSanitize', 'ngCsv']);
 
 evalApp.config(function ($routeProvider, $locationProvider) {
     $routeProvider
@@ -100,7 +100,7 @@ evalApp.controller('eval1Ctrl', function ($scope, $rootScope, $http, googleChart
                     angular.forEach(questions, function (question, key) {
                         if (question != null && question.answer != undefined  && question.answer != "" && typeof question === 'object') {
                             if (!$scope.questionChart.hasOwnProperty(key)) {
-                                $scope.questionChart[key] = {chart: {}};
+                                $scope.questionChart[key] = {chart: {}, export: [], question: question.question };
                                 $scope.questionChart[key].chart.type = "ColumnChart";
                                 $scope.questionChart[key].chart.data =
                                     {
@@ -119,10 +119,12 @@ evalApp.controller('eval1Ctrl', function ($scope, $rootScope, $http, googleChart
                                     angular.forEach(question.answer, function (answer) {
                                         if (answer != false) {
                                             $scope.questionChart[key].chart.data.rows.push({c: [{v: answer}, {v: 1}]});
+                                            $scope.questionChart[key].export.push([answer, 1]);
                                         }
                                     });
                                 } else {
                                     $scope.questionChart[key].chart.data.rows.push({c: [{v: question.answer}, {v: 1}]});
+                                    $scope.questionChart[key].export.push([question.answer, 1]);
                                 }
                             } else {
                                 if (typeof question.answer === 'object') {
@@ -131,12 +133,14 @@ evalApp.controller('eval1Ctrl', function ($scope, $rootScope, $http, googleChart
                                             var found = false;
                                             angular.forEach($scope.questionChart[key].chart.data.rows, function (row) {
                                                 if (row.c[0].v == answer) {
+                                                    $scope.questionChart[key].export[index][1]++;
                                                     row.c[1].v++;
                                                     found = true;
                                                 }
                                             });
                                             if (!found) {
                                                 $scope.questionChart[key].chart.data.rows.push({c: [{v: answer}, {v: 1}]});
+                                                $scope.questionChart[key].export.push([answer, 1]);
                                             }
                                         }
                                     });
@@ -144,11 +148,13 @@ evalApp.controller('eval1Ctrl', function ($scope, $rootScope, $http, googleChart
                                     var found = false;
                                     angular.forEach($scope.questionChart[key].chart.data.rows, function (row) {
                                         if (row.c[0].v == question.answer) {
+                                            $scope.questionChart[key].export[index][1]++;
                                             row.c[1].v++;
                                             found = true;
                                         }
                                     });
                                     if (!found) {
+                                        $scope.questionChart[key].chart.data.rows.push({c: [{v: question.answer}, {v: 1}]});
                                         $scope.questionChart[key].chart.data.rows.push({c: [{v: question.answer}, {v: 1}]});
                                     }
                                 }
@@ -685,53 +691,64 @@ evalApp.controller('eval4Ctrl', function ($scope, $rootScope, $http, googleChart
             $scope.age.hasOwnProperty(value.personal.age) ? $scope.age[value.personal.age]++ : $scope.age[value.personal.age] = 1;
             angular.forEach(value.questions, function (questions) {
                 angular.forEach(questions, function (question, key) {
-                    if(question != null && typeof question === 'object') {
-                        if(!$scope.questionChart.hasOwnProperty(key)) {
-                            $scope.questionChart[key] = {chart: {}};
+                    if (question != null && question.answer != undefined  && question.answer != "" && typeof question === 'object') {
+                        if (!$scope.questionChart.hasOwnProperty(key)) {
+                            $scope.questionChart[key] = {chart: {}, export: [], question: question.question };
                             $scope.questionChart[key].chart.type = "ColumnChart";
                             $scope.questionChart[key].chart.data =
-                                {"cols": [
-                                    {id: "s", label: "Antwort", type: "string"},
-                                    {id: "p", label: "Personen",  type: "number"},
-                                    {role: "style", type: "string"}
-                                ],
+                                {
+                                    "cols": [
+                                        {id: "s", label: "Antwort", type: "string"},
+                                        {id: "p", label: "Personen", type: "number"},
+                                        {role: "style", type: "string"}
+                                    ],
                                     "rows": []
                                 };
-                            $scope.questionChart[key].chart.options = {'title': question.question, 'colors': [createRandomColor()]};
-                            if(typeof question.answer === 'object') {
+                            $scope.questionChart[key].chart.options = {
+                                'title': question.question,
+                                'colors': [createRandomColor()]
+                            };
+                            if (typeof question.answer === 'object') {
                                 angular.forEach(question.answer, function (answer) {
-                                    if(answer != false) {
+                                    if (answer != false) {
                                         $scope.questionChart[key].chart.data.rows.push({c: [{v: answer}, {v: 1}]});
+                                        $scope.questionChart[key].export.push([answer, 1]);
                                     }
                                 });
                             } else {
                                 $scope.questionChart[key].chart.data.rows.push({c: [{v: question.answer}, {v: 1}]});
+                                $scope.questionChart[key].export.push([question.answer, 1]);
                             }
                         } else {
-                            if(typeof question.answer === 'object') {
+                            if (typeof question.answer === 'object') {
                                 angular.forEach(question.answer, function (answer) {
-                                    if(answer != false) {
+                                    if (answer != false) {
                                         var found = false;
-                                        angular.forEach($scope.questionChart[key].chart.data.rows, function (row) {
+                                        angular.forEach($scope.questionChart[key].chart.data.rows, function (row, index) {
                                             if (row.c[0].v == answer) {
+                                                $scope.questionChart[key].export[index][1]++;
                                                 row.c[1].v++;
                                                 found = true;
                                             }
                                         });
                                         if (!found) {
                                             $scope.questionChart[key].chart.data.rows.push({c: [{v: answer}, {v: 1}]});
+                                            $scope.questionChart[key].export.push([answer, 1]);
+
                                         }
                                     }
                                 });
                             } else {
                                 var found = false;
-                                angular.forEach($scope.questionChart[key].chart.data.rows, function (row) {
+                                angular.forEach($scope.questionChart[key].chart.data.rows, function (row, index) {
                                     if (row.c[0].v == question.answer) {
+                                        $scope.questionChart[key].export[index][1]++;
                                         row.c[1].v++;
                                         found = true;
                                     }
                                 });
                                 if (!found) {
+                                    $scope.questionChart[key].export.push([question.answer, 1]);
                                     $scope.questionChart[key].chart.data.rows.push({c: [{v: question.answer}, {v: 1}]});
                                 }
                             }
